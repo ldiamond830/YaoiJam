@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641222, b: 0.57481664, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -377,6 +377,7 @@ GameObject:
   - component: {fileID: 216307885}
   - component: {fileID: 216307887}
   - component: {fileID: 216307886}
+  - component: {fileID: 216307888}
   m_Layer: 5
   m_Name: Credits Panel
   m_TagString: Untagged
@@ -396,8 +397,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 239846097}
   - {fileID: 1834426176}
+  - {fileID: 239846097}
   m_Father: {fileID: 7813434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -443,6 +444,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 216307884}
   m_CullTransparentMesh: 1
+--- !u!95 &216307888
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216307884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9763fae4040c34840b39d5b80370079b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &239846096
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +477,7 @@ GameObject:
   - component: {fileID: 239846099}
   - component: {fileID: 239846098}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Names
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,8 +499,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -50}
-  m_SizeDelta: {x: 1000, y: 50}
+  m_AnchoredPosition: {x: 0, y: 225}
+  m_SizeDelta: {x: 1500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &239846098
 MonoBehaviour:
@@ -500,26 +522,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Sofia Orlando - Concept Design
-
-    Lucas Diamond - Character Controller
-    Programming
-
-    Jake Sapp - Level Design and Concept Design
-
-    Kara Kolodinsky
-    - Writing, Character Design
-
-    Brian Egan - Mechanic System Programming
-
-    Melanie
-    Willig-Friedrich - Character Design, Animation
-
-    Alex Dale - Sound Design
-
-
-
-'
+  m_text: "Sofia Orlando - Concept Design\nLucas Diamond - Character Controller Programming\nJake
+    Sapp - Level Design and Concept Design\nKara Kolodinsky - Writing, Project Management,
+    Character Design\nBrian Egan - Mechanic System Programming\nMelanie Willig-Friedrich
+    - Character Design, Animation\nAlex Dale - Sound Design\nMoss Limpert - Project
+    Management, UI/UX, Visual Design \n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -546,8 +553,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1822,6 +1829,7 @@ GameObject:
   - component: {fileID: 1570621245}
   - component: {fileID: 1570621244}
   - component: {fileID: 1570621243}
+  - component: {fileID: 1570621246}
   m_Layer: 5
   m_Name: Options Button
   m_TagString: Untagged
@@ -1892,7 +1900,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1570621244}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1570621246}
+        m_TargetAssemblyTypeName: MovePanel, Assembly-CSharp
+        m_MethodName: TogglePanel
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1570621244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1931,6 +1951,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570621241}
   m_CullTransparentMesh: 1
+--- !u!114 &1570621246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570621241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08dbb3d83ebfd52488858e28f09cad4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 2123101356}
 --- !u!1 &1735812406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2244,7 @@ GameObject:
   - component: {fileID: 1834426178}
   - component: {fileID: 1834426177}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2233,7 +2266,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 350}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1834426177
@@ -2285,8 +2318,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2347,6 +2380,7 @@ GameObject:
   - component: {fileID: 1915293474}
   - component: {fileID: 1915293473}
   - component: {fileID: 1915293472}
+  - component: {fileID: 1915293475}
   m_Layer: 5
   m_Name: Credits Button
   m_TagString: Untagged
@@ -2417,7 +2451,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1915293473}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915293475}
+        m_TargetAssemblyTypeName: MovePanel, Assembly-CSharp
+        m_MethodName: TogglePanel
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1915293473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2456,6 +2502,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915293470}
   m_CullTransparentMesh: 1
+--- !u!114 &1915293475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915293470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08dbb3d83ebfd52488858e28f09cad4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 216307884}
 --- !u!1 &1979507715
 GameObject:
   m_ObjectHideFlags: 0
