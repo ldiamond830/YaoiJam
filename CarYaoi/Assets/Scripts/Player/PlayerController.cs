@@ -11,6 +11,17 @@ public class PlayerController : MonoBehaviour
     private float breakPower;
     [SerializeField] 
     private float maxSteeringAngle;
+    [SerializeField]
+    private float topSpeed;
+    [SerializeField]
+    private int boostCharges;
+    [SerializeField] 
+    private float boostDuration;
+    private bool isBoosting;
+    private float boostTimer;
+
+    [SerializeField]
+    private Rigidbody rigidBody;
 
     [SerializeField]
     private WheelCollider frontLeftWheelCol;
@@ -40,6 +51,18 @@ public class PlayerController : MonoBehaviour
         Direction = context.ReadValue<Vector2>();
     }
 
+    public void OnBoostInput(InputAction.CallbackContext context)
+    {
+        if(boostCharges > 0 && !isBoosting)
+        {
+            boostCharges--;
+            isBoosting = true;
+            boostTimer = boostDuration;
+            topSpeed += 5;
+            motorPower *= 2;
+        }
+    }
+
     //toggles break on when button is held and off when it is released
     public void OnBreakInput(InputAction.CallbackContext context)
     {
@@ -63,15 +86,35 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(breakToggle);
+        Debug.Log(rigidBody.velocity.magnitude);
     }
 
     void FixedUpdate()
     {
-        frontLeftWheelCol.motorTorque = Direction.y * motorPower;
-        frontRightWheelCol.motorTorque = Direction.y * motorPower;
+        if (isBoosting)
+        {
+            boostTimer -= Time.deltaTime;
 
-      
+            if(boostTimer <= 0)
+            {
+                topSpeed -= 5;
+                motorPower /= 2;
+                isBoosting = false;
+
+            }
+        }
+
+        if(rigidBody.velocity.magnitude < topSpeed)
+        {
+            frontLeftWheelCol.motorTorque = Direction.y * motorPower;
+            frontRightWheelCol.motorTorque = Direction.y * motorPower;
+        }
+        else
+        {
+            //slow the car down if over the top speed
+            frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
+            frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
+        }
 
         float steerAngle = maxSteeringAngle * Direction.x;
         frontLeftWheelCol.steerAngle = steerAngle;

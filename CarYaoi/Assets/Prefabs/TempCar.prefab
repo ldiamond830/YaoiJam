@@ -1027,6 +1027,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b844667f-7198-4db6-be70-df598935caf1
     m_ActionName: PlayerInput/Break[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7762400133527542665}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnBoostInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1a2c898d-18b7-448c-8dbc-cf011b46453e
+    m_ActionName: PlayerInput/Boost[/Keyboard/shift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerInput
@@ -1047,6 +1063,10 @@ MonoBehaviour:
   motorPower: 1000
   breakPower: 3000
   maxSteeringAngle: 30
+  topSpeed: 30
+  boostCharges: 3
+  boostDuration: 5
+  rigidBody: {fileID: 1455395207175679074}
   frontLeftWheelCol: {fileID: 4081502625875547440}
   frontRightWheelCol: {fileID: 7040350542900807937}
   rearLeftWheelCol: {fileID: 3509428295806361648}
