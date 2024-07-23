@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -40,6 +41,9 @@ public class PlayerController : MonoBehaviour
     private Transform rearLeftWheelTransform;
     [SerializeField]
     private Transform rearRightWheelTransform;
+
+    [SerializeField]
+    TextMeshProUGUI SpeedText;
 
     private WheelCollider[] allWheels = new WheelCollider[4];
     private Transform[] allTransforms = new Transform[4];
@@ -87,6 +91,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Debug.Log(rigidBody.velocity.magnitude);
+        SpeedText.text = "Speed: " + (int)rigidBody.velocity.magnitude;
     }
 
     void FixedUpdate()
