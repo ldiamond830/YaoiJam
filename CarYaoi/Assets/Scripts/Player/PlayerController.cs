@@ -119,14 +119,12 @@ public class PlayerController : MonoBehaviour
         if(rigidBody.velocity.magnitude < topSpeed && accelToggle != 0)
         {
             frontLeftWheelCol.motorTorque = Direction.y * motorPower;
-            Debug.Log("Accelerating");
             frontRightWheelCol.motorTorque = Direction.y * motorPower;
         }
         else if(rigidBody.velocity.magnitude > 0.5)
         {
             //slow the car down if over the top speed
             frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
-            Debug.Log("Decelerating");
             frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
         }
 
