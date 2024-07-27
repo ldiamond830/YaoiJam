@@ -7,9 +7,6 @@ public class EnableGameObject : MonoBehaviour
 {
     [SerializeField]
     GameObject gameObject;
-    
-
-    
 
     public void ToggleEnable(bool enable)
     {
