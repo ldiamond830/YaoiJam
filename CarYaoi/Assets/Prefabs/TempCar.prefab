@@ -92,7 +92,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 15
+    m_ExtremumSlip: 10
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -362,7 +362,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 15
+    m_ExtremumSlip: 10
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -683,7 +683,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 15
+    m_ExtremumSlip: 10
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -789,7 +789,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 15
+    m_ExtremumSlip: 10
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -1032,7 +1032,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7762400133527542665}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnBoostInput
+        m_MethodName: OnNitroInput
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1044,6 +1044,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1a2c898d-18b7-448c-8dbc-cf011b46453e
     m_ActionName: PlayerInput/Boost[/Keyboard/shift]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7762400133527542665}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnGasInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 70134034-0486-4490-a22a-511d5527a46b
+    m_ActionName: PlayerInput/Gas[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerInput
@@ -1066,7 +1082,7 @@ MonoBehaviour:
   maxSteeringAngle: 30
   topSpeed: 30
   boostCharges: 3
-  boostDuration: 5
+  nitroDuration: 0
   rigidBody: {fileID: 1455395207175679074}
   frontLeftWheelCol: {fileID: 4081502625875547440}
   frontRightWheelCol: {fileID: 7040350542900807937}

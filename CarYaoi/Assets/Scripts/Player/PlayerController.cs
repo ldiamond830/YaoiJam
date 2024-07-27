@@ -17,9 +17,10 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private int boostCharges;
     [SerializeField] 
-    private float boostDuration;
-    private bool isBoosting;
-    private float boostTimer;
+    private float nitroDuration;
+    private bool nitroActive;
+    private float nitroTimer;
+    private bool isBoosted;
 
     [SerializeField]
     private Rigidbody rigidBody;
@@ -50,18 +51,19 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 Direction;
     private float breakToggle = 0.0f;
+    private float accelToggle = 0.0f;
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         Direction = context.ReadValue<Vector2>();
     }
 
-    public void OnBoostInput(InputAction.CallbackContext context)
+    public void OnNitroInput(InputAction.CallbackContext context)
     {
-        if(boostCharges > 0 && !isBoosting)
+        if(boostCharges > 0 && !nitroActive)
         {
             boostCharges--;
-            isBoosting = true;
-            boostTimer = boostDuration;
+            nitroActive = true;
+            nitroTimer = nitroDuration;
             topSpeed += 5;
             motorPower *= 2;
         }
@@ -71,6 +73,11 @@ public class PlayerController : MonoBehaviour
     public void OnBreakInput(InputAction.CallbackContext context)
     {
        breakToggle = context.ReadValue<float>();
+    }
+
+    public void OnGasInput(InputAction.CallbackContext context)
+    {
+        accelToggle = context.ReadValue<float>();
     }
 
     // Start is called before the first frame update
@@ -90,34 +97,36 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(rigidBody.velocity.magnitude);
+        
         SpeedText.text = "Speed: " + (int)rigidBody.velocity.magnitude;
     }
 
     void FixedUpdate()
     {
-        if (isBoosting)
+        if (nitroActive)
         {
-            boostTimer -= Time.deltaTime;
+            nitroTimer -= Time.deltaTime;
 
-            if(boostTimer <= 0)
+            if(nitroTimer <= 0)
             {
                 topSpeed -= 5;
                 motorPower /= 2;
-                isBoosting = false;
+                nitroActive = false;
 
             }
         }
 
-        if(rigidBody.velocity.magnitude < topSpeed)
+        if(rigidBody.velocity.magnitude < topSpeed && accelToggle != 0)
         {
             frontLeftWheelCol.motorTorque = Direction.y * motorPower;
+            Debug.Log("Accelerating");
             frontRightWheelCol.motorTorque = Direction.y * motorPower;
         }
-        else
+        else if(rigidBody.velocity.magnitude > 0.5)
         {
             //slow the car down if over the top speed
             frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
+            Debug.Log("Decelerating");
             frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
         }
 
@@ -142,5 +151,17 @@ public class PlayerController : MonoBehaviour
         wheel.GetWorldPose(out newPos, out newRot);
         transform.position = newPos;
         transform.rotation = newRot;
+    }
+
+    public void OnBoostPanel()
+    {
+        if(!isBoosted)
+        {
+            isBoosted = true;
+            topSpeed += 2;
+            frontLeftWheelCol.motorTorque = Direction.y * (motorPower * 20);
+            frontRightWheelCol.motorTorque = Direction.y * (motorPower * 20);
+            Debug.Log("Boostio");
+        }
     }
 }
