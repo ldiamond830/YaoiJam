@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641222, b: 0.57481664, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2911,6 +2911,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 593573983}
   m_CullTransparentMesh: 1
+--- !u!1 &647681469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 647681471}
+  - component: {fileID: 647681470}
+  m_Layer: 0
+  m_Name: MechanicScriptHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &647681470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647681469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f3b7b7e0f7489418bdc42d354f5fb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: []
+--- !u!4 &647681471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647681469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &690241520
 GameObject:
   m_ObjectHideFlags: 0
@@ -4958,6 +5003,8 @@ MonoBehaviour:
   partOne: {fileID: 739910804}
   partTwo: {fileID: 2047385658}
   partThree: {fileID: 1917600090}
+  partTier: 3
+  partData: []
 --- !u!1 &985653311
 GameObject:
   m_ObjectHideFlags: 0
@@ -5765,6 +5812,8 @@ MonoBehaviour:
   partOne: {fileID: 116466592}
   partTwo: {fileID: 153582018}
   partThree: {fileID: 1757327989}
+  partTier: 1
+  partData: []
 --- !u!114 &1122750425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5921,6 +5970,8 @@ MonoBehaviour:
   partOne: {fileID: 154420126}
   partTwo: {fileID: 785233906}
   partThree: {fileID: 947421820}
+  partTier: 2
+  partData: []
 --- !u!114 &1124417968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11740,6 +11791,7 @@ CanvasRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 647681471}
   - {fileID: 188124395}
   - {fileID: 278229587}
   - {fileID: 1484075344}
