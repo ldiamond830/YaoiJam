@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Basic Body
   flavorText: 
-  pointCost: 1
   tier: 1
   type: 2
   stats:
@@ -23,4 +22,5 @@ MonoBehaviour:
     topSpeed: 150
     turnSpeed: 120
     boosts: 1
-  image: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    pointCost: 1
+  image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}

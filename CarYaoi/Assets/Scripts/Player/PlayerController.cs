@@ -50,6 +50,9 @@ public class PlayerController : MonoBehaviour
 
     private Vector2 Direction;
     private float breakToggle = 0.0f;
+
+    private List<PartScriptableObject> parts;
+    private Stats stats;
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         Direction = context.ReadValue<Vector2>();
@@ -85,6 +88,12 @@ public class PlayerController : MonoBehaviour
         allTransforms[1]    = frontRightWheelTransform;
         allTransforms[2] = frontLeftWheelTransform;
         allTransforms[3] = frontRightWheelTransform;
+
+        if(MechanicScript.Instance != null) 
+        { 
+            parts = MechanicScript.Instance.playerInventory;
+            stats = MechanicScript.Instance.playerStats;
+        }
     }
 
     // Update is called once per frame

@@ -39,7 +39,7 @@ public class ClickOpenDrawer : MonoBehaviour
         text = this.GetComponent<Text>();
 
         
-        partData = MechanicScript.instance.GetPartsOfTier(partTier);
+        partData = MechanicScript.Instance.GetPartsOfTier(partTier);
         // This could probably be optimized, not too familiar with unity
         // Putting the info from the scriptable object into the UI
         // Not sure how to do user inputs, but when clicked add the scriptable object to the player's inventory if allowed
@@ -55,7 +55,7 @@ public class ClickOpenDrawer : MonoBehaviour
             Transform name = button.GetChild(0);
             name.GetComponent<TextMeshProUGUI>().text = data.name;
             Transform slots = button.GetChild(1);
-            slots.GetComponent<TextMeshProUGUI>().text = "Slots: " + data.pointCost.ToString();
+            slots.GetComponent<TextMeshProUGUI>().text = "Slots: " + data.stats.pointCost.ToString();
 
             Transform statBlock = button.GetChild(2);
             statBlock.GetChild(0).GetComponent<TextMeshProUGUI>().text = "SPD: " + data.stats.topSpeed;
