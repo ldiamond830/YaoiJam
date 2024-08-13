@@ -419,6 +419,8 @@ GameObject:
   - component: {fileID: 8905650014316774917}
   - component: {fileID: 1042954825793740288}
   - component: {fileID: 7013666708864734386}
+  - component: {fileID: 6822724270646862433}
+  - component: {fileID: 1094776810849861147}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -490,7 +492,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &7013666708864734386
@@ -514,6 +516,34 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6822724270646862433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3259426906024594134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa74453d3afeca6938d642537885ad0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeXZAxis: 1
+--- !u!114 &1094776810849861147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3259426906024594134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720624b05fdb0d2af999acce9159e197, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carTransform: {fileID: 1263624193508843391}
+  animator: {fileID: 7013666708864734386}
+  renderer: {fileID: 1042954825793740288}
 --- !u!1 &3494635382519707519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +1068,7 @@ GameObject:
   - component: {fileID: 4614677927041721727}
   - component: {fileID: 7762400133527542665}
   m_Layer: 0
-  m_Name: TempCar 1
+  m_Name: TempCarBillboards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -17,7 +17,7 @@ public class AIController : CarController
     // Update is called once per frame
     void FixedUpdate()
     {
-        Debug.Log(horizontal);
+        //Debug.Log(horizontal);
 
         AccelerateCar();
         SteerCar();

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641222, b: 0.57481664, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1324,6 +1324,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce7c881fcda5bc24f8ca2c6f59053a2f, type: 3}
+--- !u!1001 &1334189991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7474388756563917444, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_Name
+      value: TempCarBillboards
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e125b8dd208824edab03cda4d893570a, type: 3}
 --- !u!4 &1385540444 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 508419815682075203, guid: ce7c881fcda5bc24f8ca2c6f59053a2f, type: 3}
@@ -2228,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempCar
       objectReference: {fileID: 0}
+    - target: {fileID: 7474388756563917444, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2240,6 +2301,7 @@ SceneRoots:
   - {fileID: 1867975846}
   - {fileID: 484568059}
   - {fileID: 343791148}
+  - {fileID: 1334189991}
   - {fileID: 3724724031875311195}
   - {fileID: 1697960941}
   - {fileID: 876586902}
