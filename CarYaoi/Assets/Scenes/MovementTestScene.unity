@@ -1376,6 +1376,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempCarBillboards
       objectReference: {fileID: 0}
+    - target: {fileID: 8905650014316774917, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8905650014316774917, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8905650014316774917, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1917,9 +1929,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 5, z: -10}
-  target: {fileID: 1701395176428994208}
+  target: {fileID: 1898458846}
   translateSpeed: 10
   rotationSpeed: 10
+--- !u!4 &1898458846 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2893570509274503020, guid: e125b8dd208824edab03cda4d893570a, type: 3}
+  m_PrefabInstance: {fileID: 1334189991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!146 &1914620074 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 1827694658265113557, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
@@ -2131,11 +2148,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce7c881fcda5bc24f8ca2c6f59053a2f, type: 3}
---- !u!4 &1701395176428994208 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
-  m_PrefabInstance: {fileID: 3724724031875311195}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3590050177114760355
 PrefabInstance:
   m_ObjectHideFlags: 0
