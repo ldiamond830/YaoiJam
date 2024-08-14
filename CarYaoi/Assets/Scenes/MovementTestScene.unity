@@ -1632,7 +1632,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7762400133527542665, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
     - {fileID: 4614677927041721727, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 9207424019851246699, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7474388756563917444, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
@@ -2184,6 +2185,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1827694658265113557, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_SidewaysFriction.m_ExtremumSlip
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.53
@@ -2194,7 +2199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.36
+      value: 26.6
       objectReference: {fileID: 0}
     - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2224,9 +2229,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3509428295806361648, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_SidewaysFriction.m_ExtremumSlip
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081502625875547440, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_SidewaysFriction.m_ExtremumSlip
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7040350542900807937, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_SidewaysFriction.m_ExtremumSlip
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7474388756563917444, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
       propertyPath: m_Name
       value: TempCar
+      objectReference: {fileID: 0}
+    - target: {fileID: 7762400133527542665, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: breakPower
+      value: 3500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(accelToggle);
         SpeedText.text = "Speed: " + (int)rigidBody.velocity.magnitude;
     }
 
@@ -116,16 +116,52 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if(rigidBody.velocity.magnitude < topSpeed && accelToggle != 0)
+        if (accelToggle != 0)
         {
-            frontLeftWheelCol.motorTorque = Direction.y * motorPower;
-            frontRightWheelCol.motorTorque = Direction.y * motorPower;
+            if (Mathf.Abs(rigidBody.velocity.magnitude) < topSpeed)
+            {
+                frontLeftWheelCol.motorTorque = Direction.y * motorPower;
+                frontRightWheelCol.motorTorque = Direction.y * motorPower;
+            }
+            else //if (Mathf.Abs(rigidBody.velocity.magnitude) > 0.5)
+            {
+                //slow the car down if over the top speed
+                frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
+                frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
+            }
+
+            if (breakToggle != 0)
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = breakToggle * breakPower;
+                }
+            }
+            else
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = 0;
+                }
+            }
         }
-        else if(rigidBody.velocity.magnitude > 0.5)
+        else
         {
-            //slow the car down if over the top speed
-            frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
-            frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
+            if (breakToggle != 0)
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = breakPower;
+                }
+            }
+            //if not holding the accelerator or break slow down less than holding the break
+            else 
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = (breakPower / 1.3f);
+                }
+            }
         }
 
         float steerAngle = maxSteeringAngle * Direction.x;
@@ -135,7 +171,6 @@ public class PlayerController : MonoBehaviour
         
         for(int i = 0; i < allWheels.Length; i++)
         {
-            allWheels[i].brakeTorque = breakToggle * breakPower;
 
             UpdateSingleWheel(allWheels[i], allTransforms[i]);
         }

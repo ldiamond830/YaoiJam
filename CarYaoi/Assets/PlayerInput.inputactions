@@ -211,7 +211,18 @@
                 {
                     "name": "",
                     "id": "4f6dd5d4-b2f1-4e64-ac03-8d814b3dd322",
-                    "path": "<Mouse>/leftButton",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23f37a8d-d3f6-469e-b156-35dda3ea1848",
+                    "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
