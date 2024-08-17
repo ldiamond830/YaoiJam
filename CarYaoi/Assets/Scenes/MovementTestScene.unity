@@ -1733,7 +1733,8 @@ MonoBehaviour:
   rearRightWheelTransform: {fileID: 1173827131}
   currentNode: {fileID: 1857786988}
   radius: 4
-  distanceToNextWaypoint: 6
+  distanceToNextWaypoint: 10
+  pathAheadDist: 1
 --- !u!54 &1803406639 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1455395207175679074, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}

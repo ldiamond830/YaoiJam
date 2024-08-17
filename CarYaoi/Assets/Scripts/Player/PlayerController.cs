@@ -4,50 +4,20 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : CarController
 {
+    
     [SerializeField]
-    private float motorPower;
-    [SerializeField]
-    private float breakPower;
-    [SerializeField] 
-    private float maxSteeringAngle;
-    [SerializeField]
-    private float topSpeed;
-    [SerializeField]
-    private int boostCharges;
+    private int nitroCharges;
     [SerializeField] 
     private float nitroDuration;
     private bool nitroActive;
     private float nitroTimer;
-    private bool isBoosted;
 
-    [SerializeField]
-    private Rigidbody rigidBody;
-
-    [SerializeField]
-    private WheelCollider frontLeftWheelCol;
-    [SerializeField]
-    private WheelCollider frontRightWheelCol;
-    [SerializeField]
-    private WheelCollider rearLeftWheelCol;
-    [SerializeField]
-    private WheelCollider rearRightWheelCol;
-
-    [SerializeField]
-    private Transform frontLeftWheelTransform;
-    [SerializeField]
-    private Transform frontRightWheelTransform;
-    [SerializeField]
-    private Transform rearLeftWheelTransform;
-    [SerializeField]
-    private Transform rearRightWheelTransform;
-
+    
+    
     [SerializeField]
     TextMeshProUGUI SpeedText;
-
-    private WheelCollider[] allWheels = new WheelCollider[4];
-    private Transform[] allTransforms = new Transform[4];
 
     private Vector2 Direction;
     private float breakToggle = 0.0f;
@@ -59,9 +29,9 @@ public class PlayerController : MonoBehaviour
 
     public void OnNitroInput(InputAction.CallbackContext context)
     {
-        if(boostCharges > 0 && !nitroActive)
+        if(nitroCharges > 0 && !nitroActive)
         {
-            boostCharges--;
+            nitroCharges--;
             nitroActive = true;
             nitroTimer = nitroDuration;
             topSpeed += 5;
@@ -97,7 +67,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(accelToggle);
         SpeedText.text = "Speed: " + (int)rigidBody.velocity.magnitude;
     }
 
@@ -116,18 +85,44 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (isBoosted)
+        {
+            boostDuration -= Time.deltaTime;
+
+            if(boostDuration <= 0)
+            {
+                topSpeed -= 2;
+                isBoosted = false;
+            }
+        }
+
+        AccelerateCar();
+
+        SteerCar();
+
+        
+        for(int i = 0; i < allWheels.Length; i++)
+        {
+
+            UpdateSingleWheel(allWheels[i], allTransforms[i]);
+        }
+        
+    }
+
+    protected override void AccelerateCar()
+    {
         if (accelToggle != 0)
         {
             if (Mathf.Abs(rigidBody.velocity.magnitude) < topSpeed)
             {
-                frontLeftWheelCol.motorTorque = Direction.y * motorPower;
-                frontRightWheelCol.motorTorque = Direction.y * motorPower;
+                allWheels[0].motorTorque = Direction.y * motorPower;
+                allWheels[1].motorTorque = Direction.y * motorPower;
             }
-            else //if (Mathf.Abs(rigidBody.velocity.magnitude) > 0.5)
+            else
             {
                 //slow the car down if over the top speed
-                frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
-                frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
+                allWheels[0].motorTorque = Direction.y * motorPower * -1;
+                allWheels[1].motorTorque = Direction.y * motorPower * -1;
             }
 
             if (breakToggle != 0)
@@ -155,7 +150,7 @@ public class PlayerController : MonoBehaviour
                 }
             }
             //if not holding the accelerator or break slow down less than holding the break
-            else 
+            else
             {
                 for (int i = 0; i < allWheels.Length; i++)
                 {
@@ -163,38 +158,25 @@ public class PlayerController : MonoBehaviour
                 }
             }
         }
+    }
 
+    protected override void SteerCar()
+    {
         float steerAngle = maxSteeringAngle * Direction.x;
         frontLeftWheelCol.steerAngle = steerAngle;
         frontRightWheelCol.steerAngle = steerAngle;
-
-        
-        for(int i = 0; i < allWheels.Length; i++)
-        {
-
-            UpdateSingleWheel(allWheels[i], allTransforms[i]);
-        }
-        
     }
 
-    private void UpdateSingleWheel(WheelCollider wheel, Transform transform)
-    {
-        Vector3 newPos;
-        Quaternion newRot;
-        wheel.GetWorldPose(out newPos, out newRot);
-        transform.position = newPos;
-        transform.rotation = newRot;
-    }
-
-    public void OnBoostPanel()
+    public override void OnBoostPanel()
     {
         if(!isBoosted)
         {
             isBoosted = true;
             topSpeed += 2;
-            frontLeftWheelCol.motorTorque = Direction.y * (motorPower * 20);
-            frontRightWheelCol.motorTorque = Direction.y * (motorPower * 20);
-            Debug.Log("Boostio");
+            //frontLeftWheelCol.motorTorque = Direction.y * (motorPower * 20);
+            //frontRightWheelCol.motorTorque = Direction.y * (motorPower * 20);
+            rigidBody.velocity = rigidBody.velocity.normalized * topSpeed;
+            boostTimer = boostDuration;
         }
     }
 }
