@@ -93,6 +93,13 @@ public abstract class CarController : MonoBehaviour
     protected abstract void AccelerateCar();
     public abstract void OnBoostPanel();
 
+    public virtual void Respawn()
+    {
+        transform.position = checkPoint.position;
+        transform.rotation = checkPoint.rotation;
+        rigidBody.velocity = Vector3.zero;
+    }
+
     protected void UpdateSingleWheel(WheelCollider wheel, Transform transform)
     {
         Vector3 newPos;

@@ -15,4 +15,10 @@ public class CheckPoint : MonoBehaviour
             car.checkPoint = respawnPoint;
         }
     }
+
+    public void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(respawnPoint.position, respawnPoint.position + respawnPoint.forward);
+    }
 }

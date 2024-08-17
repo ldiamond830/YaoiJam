@@ -14,7 +14,8 @@ public class PlayerController : CarController
     private bool nitroActive;
     private float nitroTimer;
 
-    
+    [SerializeField]
+    private CameraFollow cam;
     
     [SerializeField]
     TextMeshProUGUI SpeedText;
@@ -178,5 +179,11 @@ public class PlayerController : CarController
             rigidBody.velocity = rigidBody.velocity.normalized * topSpeed;
             boostTimer = boostDuration;
         }
+    }
+
+    public override void Respawn()
+    {
+        base.Respawn();
+        cam.Reset();
     }
 }
