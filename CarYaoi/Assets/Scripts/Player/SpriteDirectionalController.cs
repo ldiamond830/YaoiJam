@@ -25,7 +25,7 @@ public class SpriteDirectionalController : MonoBehaviour
 
         float angle = Mathf.Abs(signedAngle);
 
-        Debug.Log("angle:" + angle);
+        //Debug.Log("angle:" + angle);
 
         if (signedAngle < 0) {
             spriteRenderer.flipX = true;
@@ -39,18 +39,18 @@ public class SpriteDirectionalController : MonoBehaviour
         // i think i'd rather edit the animator controller floats directly
         // but i'm lazy and following the tutorial, so this will do for now
         // W SIDE
-        if (angle < 25f || angle > 335f) {
+        if (angle < 3f || angle > 355f) {
             animationAngle = new Vector2(0f, 1f);
 
         } else if (angle < 90f) /*NW FWD LEFT*/ {
             animationAngle = new Vector2(-1f, 0f);
 
-        } else if (angle < 115f) /*N FWD*/ {
+        } else if (angle < 90.05f) /*N FWD*/ {
             animationAngle = new Vector2(0f, -1f);
 
         } else if (angle < 155f) /*NE FWD RIGHT*/ {
             animationAngle = new Vector2(1f, 0f);
-        } else if (angle < 205f) /*E SIDE*/ {
+        } else if (angle < 190f) /*E SIDE*/ {
             animationAngle = new Vector2(0f, 1f);
 
         } else if (angle < 225f) /*SE FWD LEFT*/ {
