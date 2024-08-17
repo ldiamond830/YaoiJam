@@ -42,7 +42,7 @@ public class SpriteDirectionalController : MonoBehaviour
         if (angle < 25f || angle > 335f) {
             animationAngle = new Vector2(0f, 1f);
 
-        } else if (angle < 65f) /*NW FWD LEFT*/ {
+        } else if (angle < 90f) /*NW FWD LEFT*/ {
             animationAngle = new Vector2(-1f, 0f);
 
         } else if (angle < 115f) /*N FWD*/ {
@@ -53,7 +53,7 @@ public class SpriteDirectionalController : MonoBehaviour
         } else if (angle < 205f) /*E SIDE*/ {
             animationAngle = new Vector2(0f, 1f);
 
-        } else if (angle < 245f) /*SE FWD LEFT*/ {
+        } else if (angle < 225f) /*SE FWD LEFT*/ {
             animationAngle = new Vector2(-1f, 0f);
 
         } else if (angle < 295f) /*S FWD*/ {
