@@ -8,6 +8,7 @@ public class AIController : CarController
     private float horizontal, velocity;
     [SerializeField]
     private PathNode currentNode;
+    private PathNode nodeAtLastCheckPoint;
     [SerializeField]
     private float radius = 4;
     [SerializeField]
@@ -15,6 +16,7 @@ public class AIController : CarController
     [SerializeField, Tooltip("number of waypoints the car's pathing will jump ahead when it reaches its current waypoint")]
     private int pathAheadDist;
 
+ 
 
     // Update is called once per frame
     void FixedUpdate()
@@ -84,5 +86,16 @@ public class AIController : CarController
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(currentNode.transform.position, 2);
+    }
+
+    public override void Respawn()
+    {
+        base.Respawn();
+        currentNode = nodeAtLastCheckPoint;
+    }
+
+    public void SetCheckPointNode()
+    {
+       nodeAtLastCheckPoint = currentNode;
     }
 }

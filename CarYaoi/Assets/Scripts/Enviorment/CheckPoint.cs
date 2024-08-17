@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
@@ -13,6 +14,11 @@ public class CheckPoint : MonoBehaviour
         if(car != null)
         {
             car.checkPoint = respawnPoint;
+            if(car is AIController)
+            {
+                AIController AI = (AIController)car;
+                AI.SetCheckPointNode();
+            }
         }
     }
 
