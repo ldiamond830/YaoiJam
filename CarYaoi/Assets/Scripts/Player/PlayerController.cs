@@ -21,7 +21,7 @@ public class PlayerController : CarController
     TextMeshProUGUI SpeedText;
 
     private Vector2 Direction;
-    private float breakToggle = 0.0f;
+    private float brakeToggle = 0.0f;
 
     private List<PartScriptableObject> parts;
     private Stats stats;
@@ -44,9 +44,9 @@ public class PlayerController : CarController
     }
 
     //toggles break on when button is held and off when it is released
-    public void OnBreakInput(InputAction.CallbackContext context)
+    public void OnBrakeInput(InputAction.CallbackContext context)
     {
-       breakToggle = context.ReadValue<float>();
+       brakeToggle = context.ReadValue<float>();
     }
 
     public void OnGasInput(InputAction.CallbackContext context)
@@ -71,6 +71,12 @@ public class PlayerController : CarController
         { 
             parts = MechanicScript.Instance.playerInventory;
             stats = MechanicScript.Instance.playerStats;
+
+            motorPower += stats.acceleration;
+            brakePower += stats.braking;
+            topSpeed += stats.topSpeed;
+            maxSteeringAngle += stats.turnSpeed;
+            nitroCharges += stats.boosts;
         }
     }
 
@@ -135,11 +141,11 @@ public class PlayerController : CarController
                 allWheels[1].motorTorque = Direction.y * motorPower * -1;
             }
 
-            if (breakToggle != 0)
+            if (brakeToggle != 0)
             {
                 for (int i = 0; i < allWheels.Length; i++)
                 {
-                    allWheels[i].brakeTorque = breakToggle * breakPower;
+                    allWheels[i].brakeTorque = brakeToggle * brakePower;
                 }
             }
             else
@@ -152,11 +158,11 @@ public class PlayerController : CarController
         }
         else
         {
-            if (breakToggle != 0)
+            if (brakeToggle != 0)
             {
                 for (int i = 0; i < allWheels.Length; i++)
                 {
-                    allWheels[i].brakeTorque = breakPower;
+                    allWheels[i].brakeTorque = brakePower;
                 }
             }
             //if not holding the accelerator or break slow down less than holding the break
@@ -164,7 +170,7 @@ public class PlayerController : CarController
             {
                 for (int i = 0; i < allWheels.Length; i++)
                 {
-                    allWheels[i].brakeTorque = (breakPower / 1.3f);
+                    allWheels[i].brakeTorque = (brakePower / 1.3f);
                 }
             }
         }

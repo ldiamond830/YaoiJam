@@ -17,7 +17,7 @@ public abstract class CarController : MonoBehaviour
     [SerializeField]
     protected float motorPower;
     [SerializeField]
-    protected float breakPower;
+    protected float brakePower;
     [SerializeField]
     protected float maxSteeringAngle;
     [SerializeField]
