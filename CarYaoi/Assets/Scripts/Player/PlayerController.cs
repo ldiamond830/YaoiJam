@@ -4,67 +4,40 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : CarController
 {
+    
     [SerializeField]
-    private float motorPower;
-    [SerializeField]
-    private float breakPower;
+    private int nitroCharges;
     [SerializeField] 
-    private float maxSteeringAngle;
-    [SerializeField]
-    private float topSpeed;
-    [SerializeField]
-    private int boostCharges;
-    [SerializeField] 
-    private float boostDuration;
-    private bool isBoosting;
-    private float boostTimer;
+    private float nitroDuration;
+    private bool nitroActive;
+    private float nitroTimer;
 
     [SerializeField]
-    private Rigidbody rigidBody;
-
-    [SerializeField]
-    private WheelCollider frontLeftWheelCol;
-    [SerializeField]
-    private WheelCollider frontRightWheelCol;
-    [SerializeField]
-    private WheelCollider rearLeftWheelCol;
-    [SerializeField]
-    private WheelCollider rearRightWheelCol;
-
-    [SerializeField]
-    private Transform frontLeftWheelTransform;
-    [SerializeField]
-    private Transform frontRightWheelTransform;
-    [SerializeField]
-    private Transform rearLeftWheelTransform;
-    [SerializeField]
-    private Transform rearRightWheelTransform;
-
+    private CameraFollow cam;
+    
     [SerializeField]
     TextMeshProUGUI SpeedText;
-
-    private WheelCollider[] allWheels = new WheelCollider[4];
-    private Transform[] allTransforms = new Transform[4];
 
     private Vector2 Direction;
     private float breakToggle = 0.0f;
 
     private List<PartScriptableObject> parts;
     private Stats stats;
+    private float accelToggle = 0.0f;
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         Direction = context.ReadValue<Vector2>();
     }
 
-    public void OnBoostInput(InputAction.CallbackContext context)
+    public void OnNitroInput(InputAction.CallbackContext context)
     {
-        if(boostCharges > 0 && !isBoosting)
+        if(nitroCharges > 0 && !nitroActive)
         {
-            boostCharges--;
-            isBoosting = true;
-            boostTimer = boostDuration;
+            nitroCharges--;
+            nitroActive = true;
+            nitroTimer = nitroDuration;
             topSpeed += 5;
             motorPower *= 2;
         }
@@ -74,6 +47,11 @@ public class PlayerController : MonoBehaviour
     public void OnBreakInput(InputAction.CallbackContext context)
     {
        breakToggle = context.ReadValue<float>();
+    }
+
+    public void OnGasInput(InputAction.CallbackContext context)
+    {
+        accelToggle = context.ReadValue<float>();
     }
 
     // Start is called before the first frame update
@@ -99,57 +77,122 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(rigidBody.velocity.magnitude);
         SpeedText.text = "Speed: " + (int)rigidBody.velocity.magnitude;
     }
 
     void FixedUpdate()
     {
-        if (isBoosting)
+        if (nitroActive)
         {
-            boostTimer -= Time.deltaTime;
+            nitroTimer -= Time.deltaTime;
 
-            if(boostTimer <= 0)
+            if(nitroTimer <= 0)
             {
                 topSpeed -= 5;
                 motorPower /= 2;
-                isBoosting = false;
+                nitroActive = false;
 
             }
         }
 
-        if(rigidBody.velocity.magnitude < topSpeed)
+        if (isBoosted)
         {
-            frontLeftWheelCol.motorTorque = Direction.y * motorPower;
-            frontRightWheelCol.motorTorque = Direction.y * motorPower;
-        }
-        else
-        {
-            //slow the car down if over the top speed
-            frontLeftWheelCol.motorTorque = Direction.y * motorPower * -1;
-            frontRightWheelCol.motorTorque = Direction.y * motorPower * -1;
+            boostDuration -= Time.deltaTime;
+
+            if(boostDuration <= 0)
+            {
+                topSpeed -= 2;
+                isBoosted = false;
+            }
         }
 
-        float steerAngle = maxSteeringAngle * Direction.x;
-        frontLeftWheelCol.steerAngle = steerAngle;
-        frontRightWheelCol.steerAngle = steerAngle;
+        AccelerateCar();
+
+        SteerCar();
 
         
         for(int i = 0; i < allWheels.Length; i++)
         {
-            allWheels[i].brakeTorque = breakToggle * breakPower;
 
             UpdateSingleWheel(allWheels[i], allTransforms[i]);
         }
         
     }
 
-    private void UpdateSingleWheel(WheelCollider wheel, Transform transform)
+    protected override void AccelerateCar()
     {
-        Vector3 newPos;
-        Quaternion newRot;
-        wheel.GetWorldPose(out newPos, out newRot);
-        transform.position = newPos;
-        transform.rotation = newRot;
+        if (accelToggle != 0)
+        {
+            if (Mathf.Abs(rigidBody.velocity.magnitude) < topSpeed)
+            {
+                allWheels[0].motorTorque = Direction.y * motorPower;
+                allWheels[1].motorTorque = Direction.y * motorPower;
+            }
+            else
+            {
+                //slow the car down if over the top speed
+                allWheels[0].motorTorque = Direction.y * motorPower * -1;
+                allWheels[1].motorTorque = Direction.y * motorPower * -1;
+            }
+
+            if (breakToggle != 0)
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = breakToggle * breakPower;
+                }
+            }
+            else
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = 0;
+                }
+            }
+        }
+        else
+        {
+            if (breakToggle != 0)
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = breakPower;
+                }
+            }
+            //if not holding the accelerator or break slow down less than holding the break
+            else
+            {
+                for (int i = 0; i < allWheels.Length; i++)
+                {
+                    allWheels[i].brakeTorque = (breakPower / 1.3f);
+                }
+            }
+        }
+    }
+
+    protected override void SteerCar()
+    {
+        float steerAngle = maxSteeringAngle * Direction.x;
+        frontLeftWheelCol.steerAngle = steerAngle;
+        frontRightWheelCol.steerAngle = steerAngle;
+    }
+
+    public override void OnBoostPanel()
+    {
+        if(!isBoosted)
+        {
+            isBoosted = true;
+            topSpeed += 2;
+            //frontLeftWheelCol.motorTorque = Direction.y * (motorPower * 20);
+            //frontRightWheelCol.motorTorque = Direction.y * (motorPower * 20);
+            rigidBody.velocity = rigidBody.velocity.normalized * topSpeed;
+            boostTimer = boostDuration;
+        }
+    }
+
+    public override void Respawn()
+    {
+        base.Respawn();
+        cam.Reset();
     }
 }

@@ -26,4 +26,13 @@ public class CameraFollow : MonoBehaviour
 
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRot, rotationSpeed * Time.deltaTime);
     }
+
+    public void Reset()
+    {
+        transform.position = target.TransformPoint(offset);
+
+        Vector3 direction = target.position - transform.position;
+        transform.rotation = Quaternion.LookRotation(direction, Vector3.up);
+
+    }
 }
