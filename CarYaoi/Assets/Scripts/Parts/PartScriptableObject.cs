@@ -10,6 +10,7 @@ public struct Stats
     public float topSpeed;
     public float turnSpeed;
     public int boosts;
+    public int pointCost;
 }
 
 public enum PartType
@@ -25,7 +26,6 @@ public class PartScriptableObject : ScriptableObject
 {
     public new string name;
     public string flavorText;
-    public int pointCost;
     public int tier;
     public PartType type;
     public Stats stats;

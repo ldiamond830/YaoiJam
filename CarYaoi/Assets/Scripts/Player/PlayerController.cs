@@ -22,6 +22,9 @@ public class PlayerController : CarController
 
     private Vector2 Direction;
     private float breakToggle = 0.0f;
+
+    private List<PartScriptableObject> parts;
+    private Stats stats;
     private float accelToggle = 0.0f;
     public void OnMoveInput(InputAction.CallbackContext context)
     {
@@ -63,6 +66,12 @@ public class PlayerController : CarController
         allTransforms[1]    = frontRightWheelTransform;
         allTransforms[2] = frontLeftWheelTransform;
         allTransforms[3] = frontRightWheelTransform;
+
+        if(MechanicScript.Instance != null) 
+        { 
+            parts = MechanicScript.Instance.playerInventory;
+            stats = MechanicScript.Instance.playerStats;
+        }
     }
 
     // Update is called once per frame
