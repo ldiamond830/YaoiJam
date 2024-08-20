@@ -25,6 +25,7 @@ public class MechanicScript : MonoBehaviour
 
         // Get all parts
         stock = GetAllInstances<PartScriptableObject>();
+        playerStats.pointCost = maxSlots;
     }
 
     // Update is called once per frame

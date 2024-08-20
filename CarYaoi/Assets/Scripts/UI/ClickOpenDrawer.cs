@@ -63,6 +63,18 @@ public class ClickOpenDrawer : MonoBehaviour
             statBlock.GetChild(2).GetComponent<TextMeshProUGUI>().text = "MNV: " + data.stats.turnSpeed;
             statBlock.GetChild(3).GetComponent<TextMeshProUGUI>().text = "BST: " + data.stats.boosts;
 
+            // Add click event
+            button.gameObject.GetComponent<Button>().onClick.AddListener(
+                () =>
+                {
+                    Debug.Log("Attempting to add " + partData[dataIndex].name);
+                    if (MechanicScript.Instance.AddPartToPlayerInventory(partData[dataIndex]))
+                    {
+                        Debug.Log("Successfully Added");
+                    } else Debug.Log("Not Added");
+                }
+                );
+
         }
         if (partData.Count < 1) { return; }
         SetParts(partOne, 0);
