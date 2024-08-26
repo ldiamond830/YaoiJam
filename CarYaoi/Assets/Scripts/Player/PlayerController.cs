@@ -6,7 +6,8 @@ using TMPro;
 
 public class PlayerController : CarController
 {
-    
+    [SerializeField]
+    private Transform CenterOfMass;
     [SerializeField]
     private int nitroCharges;
     [SerializeField] 
@@ -78,6 +79,8 @@ public class PlayerController : CarController
             maxSteeringAngle += stats.turnSpeed;
             nitroCharges += stats.boosts;
         }
+
+        rigidBody.centerOfMass = CenterOfMass.localPosition;
     }
 
     // Update is called once per frame
