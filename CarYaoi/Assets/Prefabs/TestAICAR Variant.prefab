@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9dcefa8f69d844aba9b8077d3cfeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CenterOfMass: {fileID: 8818133922149590336}
   driveType: 0
   motorPower: 1000
   brakePower: 0
@@ -179,5 +180,10 @@ WheelCollider:
 --- !u!4 &8689069181676012220 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8617599343260357168, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+  m_PrefabInstance: {fileID: 1081456081420128396}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8818133922149590336 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8458415990810080716, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
   m_PrefabInstance: {fileID: 1081456081420128396}
   m_PrefabAsset: {fileID: 0}

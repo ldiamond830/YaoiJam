@@ -6,8 +6,7 @@ using TMPro;
 
 public class PlayerController : CarController
 {
-    [SerializeField]
-    private Transform CenterOfMass;
+    
     [SerializeField]
     private int nitroCharges;
     [SerializeField] 

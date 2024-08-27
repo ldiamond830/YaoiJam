@@ -10,7 +10,8 @@ public enum DriveType
 
 public abstract class CarController : MonoBehaviour
 {
-
+    [SerializeField]
+    protected Transform CenterOfMass;
     [SerializeField]
     private DriveType driveType = DriveType.frontWheelDrive;
 
@@ -81,6 +82,7 @@ public abstract class CarController : MonoBehaviour
             allTransforms[2] = frontLeftWheelTransform;
             allTransforms[3] = frontRightWheelTransform;
         }
+        rigidBody.centerOfMass = CenterOfMass.localPosition;
     }
 
     // Update is called once per frame

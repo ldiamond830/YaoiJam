@@ -84,8 +84,11 @@ public class AIController : CarController
 
     public void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(currentNode.transform.position, 2);
+        if(currentNode != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(currentNode.transform.position, 2);
+        }
     }
 
     public override void Respawn()
