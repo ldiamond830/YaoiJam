@@ -151,10 +151,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9dcefa8f69d844aba9b8077d3cfeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  driveType: 0
   motorPower: 1000
-  breakPower: 3000
+  brakePower: 0
   maxSteeringAngle: 30
-  topSpeed: 30
+  topSpeed: 10
   rigidBody: {fileID: 1959207302833159406}
   frontLeftWheelCol: {fileID: 4010019584560678332}
   frontRightWheelCol: {fileID: 7977637560139602317}
@@ -164,6 +165,8 @@ MonoBehaviour:
   frontRightWheelTransform: {fileID: 1322556617316511490}
   rearLeftWheelTransform: {fileID: 4647146167575942038}
   rearRightWheelTransform: {fileID: 8689069181676012220}
+  boostDuration: 0
+  checkPoint: {fileID: 0}
   currentNode: {fileID: 0}
   radius: 4
   distanceToNextWaypoint: 10
