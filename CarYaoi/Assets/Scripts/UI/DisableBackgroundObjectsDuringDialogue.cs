@@ -10,7 +10,8 @@ public class DisableBackgroundObjectsDuringDialogue : MonoBehaviour
     // disable background objects
     public void disableBGObjects ()
     {
-        for (int i = backgroundObjects.Count; i > 0; i--)
+        //Debug.Log(backgroundObjects.Count);
+        for (int i = backgroundObjects.Count - 1; i >= 0; i--)
         {
             backgroundObjects[i].SetActive(false);
         }
@@ -19,7 +20,7 @@ public class DisableBackgroundObjectsDuringDialogue : MonoBehaviour
     // enable background objects
     public void enableBGObjects()
     {
-        for (int i = backgroundObjects.Count - 1; i > 0; i--)
+        for (int i = backgroundObjects.Count - 1; i >= 0; i--)
         {
             backgroundObjects[i].SetActive(true);
         }
