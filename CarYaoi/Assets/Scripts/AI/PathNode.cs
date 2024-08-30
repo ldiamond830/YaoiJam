@@ -5,7 +5,7 @@ using UnityEngine;
 public class PathNode : MonoBehaviour
 {
     public PathNode next;
-
+    public PathNode prev;
 
     public PathNode GetNext(int numToSkip)
     {
@@ -16,6 +16,18 @@ public class PathNode : MonoBehaviour
         else
         {
             return next.GetNext(numToSkip - 1);
+        }
+    }
+
+    public PathNode GetPrev(int numToSkip)
+    {
+        if (numToSkip == 0)
+        {
+            return prev;
+        }
+        else
+        {
+            return prev.GetPrev(numToSkip - 1);
         }
     }
 

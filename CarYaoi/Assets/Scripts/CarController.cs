@@ -56,7 +56,7 @@ public abstract class CarController : MonoBehaviour
     public Transform checkPoint;
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
         if(driveType == DriveType.frontWheelDrive)
         {
