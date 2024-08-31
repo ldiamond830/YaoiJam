@@ -114,4 +114,10 @@ public class MechanicScript : MonoBehaviour
         return playerStats;
     }
 
+    // returns the number of points a player can allocate to buy parts
+    public int Slots()
+    {
+        Stats playerStats = ComputePlayerStats();
+        return playerStats.pointCost;
+    }
 }
