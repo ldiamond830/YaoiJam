@@ -6,7 +6,8 @@ This game is currently in development for submission to the [Yaoi Game Jam 2024]
 ### [Alex Dale]() (they/he/she) Sound Designer
 ### [Lucas Diamond](https://lucasdiamondportfolio.com/) (he/him) Player and AI Programmer
 ### [Brian Egan](https://brianegan.page/) (he/him) Mechanic System Programmer
-### [Kara Kolodinsky](https://www.domu.club/main) (she/her) 2D Artist and Writer
+### [Kara Kolodinsky](https://www.domu.club/) (have/fun) 2D Artist and Writer
 ### [Moss Limpert](https://bryopsida.net/) (he/him) Team Lead, Technical Artist
+### [Sofia Orlando](https://www.monnettie.club/) (she/him) Writer
 ### [Jake Sapp]() (he/him) Level Designer
 ### [Melanie Willig-Friederich](https://melaniesnook.carrd.co/) (she/her) 2D Artist
