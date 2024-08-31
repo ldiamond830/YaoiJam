@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c62fe18ffd4916ca29f92824e4946831
+guid: 9180df3f883d0dc0fa89db36dde118f8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_0
+      name: GENERIC_RACE_SPRITES_6_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e259c2c97ab7475cebefd9fd04b56c21
-      internalID: -564197913
+      spriteID: c0563397c03f04d40bda6f5219082750
+      internalID: -124983823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_1
+      name: GENERIC_RACE_SPRITES_6_1
       rect:
         serializedVersion: 2
         x: 32
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d93bbae06ec47c8e9db82cb04de41c9
-      internalID: 1262461745
+      spriteID: 63e9b87e859c91da6a8601d3d1117fca
+      internalID: -1048761995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_2
+      name: GENERIC_RACE_SPRITES_6_2
       rect:
         serializedVersion: 2
         x: 64
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ba225fa4f6ff75888d604c7de1f5074
-      internalID: 27049825
+      spriteID: b9056371c280604729f09eacb60928ed
+      internalID: 723931882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_3
+      name: GENERIC_RACE_SPRITES_6_3
       rect:
         serializedVersion: 2
         x: 96
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7145c397295ce830686cfdc79eadd341
-      internalID: -513114386
+      spriteID: 8a1b59b7e91969f31ae938db23048477
+      internalID: 1075700737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_4
+      name: GENERIC_RACE_SPRITES_6_4
       rect:
         serializedVersion: 2
         x: 128
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 598aa3f85be4deaf8984088737f30928
-      internalID: 1786313775
+      spriteID: 287a681ad48c71a28b924cb8221a8beb
+      internalID: -873159147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_5
+      name: GENERIC_RACE_SPRITES_6_5
       rect:
         serializedVersion: 2
         x: 160
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b154b8d1f43cb846b5760232efbe613
-      internalID: -1139398951
+      spriteID: 0cbb69a2f7b475eb4ac347419fe3ebf6
+      internalID: -1015095342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_6
+      name: GENERIC_RACE_SPRITES_6_6
       rect:
         serializedVersion: 2
         x: 192
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a817d2b42afdf92e28ba333e96986e7a
-      internalID: 1617094483
+      spriteID: 570c960f4b16164f080f74147e7409fd
+      internalID: 1259259242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLIMAXX_RACE_SPRITES_7
+      name: GENERIC_RACE_SPRITES_6_7
       rect:
         serializedVersion: 2
         x: 224
@@ -271,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3d17678fb0a91b95a16e05ec2110367
-      internalID: 1889117004
+      spriteID: 80e5441655ff7de9fbdd860ea211a9db
+      internalID: 44170692
       vertices: []
       indices: 
       edges: []
@@ -280,7 +280,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 17ea72418fe10b4bd9160dbe25d1e405
     internalID: 0
     vertices: []
     indices: 
@@ -288,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CLIMAXX_RACE_SPRITES_0: -564197913
-      CLIMAXX_RACE_SPRITES_1: 1262461745
-      CLIMAXX_RACE_SPRITES_2: 27049825
-      CLIMAXX_RACE_SPRITES_3: -513114386
-      CLIMAXX_RACE_SPRITES_4: 1786313775
-      CLIMAXX_RACE_SPRITES_5: -1139398951
-      CLIMAXX_RACE_SPRITES_6: 1617094483
-      CLIMAXX_RACE_SPRITES_7: 1889117004
+      GENERIC_RACE_SPRITES_6_0: -124983823
+      GENERIC_RACE_SPRITES_6_1: -1048761995
+      GENERIC_RACE_SPRITES_6_2: 723931882
+      GENERIC_RACE_SPRITES_6_3: 1075700737
+      GENERIC_RACE_SPRITES_6_4: -873159147
+      GENERIC_RACE_SPRITES_6_5: -1015095342
+      GENERIC_RACE_SPRITES_6_6: 1259259242
+      GENERIC_RACE_SPRITES_6_7: 44170692
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

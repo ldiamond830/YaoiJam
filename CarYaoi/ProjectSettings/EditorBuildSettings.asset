@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MovementTestScene.unity
     guid: 7419028308599fe44b0a2a1dceeae7d5
+  - enabled: 1
+    path: Assets/Scenes/VN_Intro.unity
+    guid: e31e506a46016f8e6a9fa94172528ba2
+  - enabled: 1
+    path: Assets/Scenes/Tracks/Track 1.unity
+    guid: de2a650e8b40beb4e86a80d7a62ecb66
+  - enabled: 1
+    path: Assets/Scenes/Mechanic.unity
+    guid: bc70b7b44dfc3a44fb4972d3c8a8d34c
   m_configObjects: {}
