@@ -171,7 +171,11 @@ MonoBehaviour:
   currentNode: {fileID: 0}
   radius: 4
   distanceToNextWaypoint: 10
-  pathAheadDist: 1
+  pathAheadDist: 0
+  pathBehindDist: 0
+  reverseThreshold: 0.5
+  reverseTime: 1
+  checkStuckTime: 0.75
 --- !u!146 &7977637560139602317 stripped
 WheelCollider:
   m_CorrespondingSourceObject: {fileID: 7040350542900807937, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
