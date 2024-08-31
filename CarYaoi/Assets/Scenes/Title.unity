@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96535aebde96aae429039680e1441f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MovementTestScene
+  sceneName: VN_Intro
 --- !u!114 &978411880
 MonoBehaviour:
   m_ObjectHideFlags: 0
