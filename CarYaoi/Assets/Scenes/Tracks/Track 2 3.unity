@@ -8599,7 +8599,7 @@ MonoBehaviour:
   lapCount: 2
   loadScene: {fileID: 1285337430}
   trackNumberCounter: {fileID: 680593228}
-  trackNumber: 1
+  trackNumber: 3
 --- !u!114 &1285337430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8612,7 +8612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96535aebde96aae429039680e1441f8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: VN_AfterRace_1
+  sceneName: VN_Win
 --- !u!1 &1296592447
 GameObject:
   m_ObjectHideFlags: 0

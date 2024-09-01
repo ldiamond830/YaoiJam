@@ -3653,7 +3653,7 @@ MonoBehaviour:
     boosts: 0
     pointCost: 0
   maxSlots: 10
-  sceneToLoad: Track 2
+  sceneToLoad: Track 2 2
 --- !u!4 &647681471
 Transform:
   m_ObjectHideFlags: 0

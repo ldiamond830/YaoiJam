@@ -16,9 +16,16 @@ public class MechanicScript : MonoBehaviour
     public Stats playerStats;
     public int maxSlots = 10;
 
+    LoadScene loadScene;
+
+    [SerializeField]
+    string sceneToLoad;
+
     // Awake is called before the Start function
     void Awake()
     {
+        loadScene = new LoadScene();
+
         // Setup singleton
         if(Instance != null && Instance != this) { Destroy(this); }
         else { Instance = this; DontDestroyOnLoad(gameObject); }
@@ -29,7 +36,9 @@ public class MechanicScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update() { }
+    void Update() { 
+        
+    }
 
     /// Gets all Parts in the game
     /// https://stackoverflow.com/questions/62102324/how-can-i-add-each-instance-of-a-scriptable-object-to-a-collection
@@ -67,6 +76,10 @@ public class MechanicScript : MonoBehaviour
     /// <returns>True if added, false if not able to be added</returns>
     public bool AddPartToPlayerInventory(PartScriptableObject part)
     {
+        if ( playerInventory.Count >= 3) {
+            loadScene.OnClickLoadScene(sceneToLoad);
+        }
+
         // If part type already exists, replace that part type
         foreach (PartScriptableObject p in playerInventory)
         {
