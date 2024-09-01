@@ -16,7 +16,11 @@ public class FinishLine : MonoBehaviour
             {
                 if(car is PlayerController)
                 {
-                    //win condition
+                    //win 
+                }
+                else
+                {
+                    //loss
                 }
             }
         }
