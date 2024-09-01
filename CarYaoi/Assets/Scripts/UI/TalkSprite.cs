@@ -7,13 +7,15 @@ public class TalkSprite : MonoBehaviour
 {
     [SerializeField]
     [Tooltip("You dont have to assign the mechanic if he's not in the scene")]
-    GameObject mechanic_neutral,mechanic_teehee, climaxx_neutral, climaxx_annoyed, climaxx_smug, acura_neutral, acura_happy;
+    GameObject mechanic_neutral,mechanic_teehee, climaxx_neutral, climaxx_annoyed, climaxx_smug, acura_neutral, acura_happy, theKISS;
 
     // Start is called before the first frame update
     void Start()
     {
 
     }
+
+    
 
 //
 // MAXX
@@ -105,5 +107,20 @@ public class TalkSprite : MonoBehaviour
     public void hideMechanicTeehee() {
         mechanic_teehee.SetActive(false);
     }
+
+     //
+    // Cutscene CGs
+    //
+
+    // show cg of them kissing crazy style
+
+    public void showTHEKISS() {
+        theKISS.SetActive(true);
+    }
+
+     public void hideTHEKISS() {
+        theKISS.SetActive(false);
+    }
+    
 
 }
