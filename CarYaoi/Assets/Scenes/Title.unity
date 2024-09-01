@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641222, b: 0.57481664, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -599,11 +599,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sofia Orlando - Concept Design\nLucas Diamond - Character Controller Programming\nJake
-    Sapp - Level Design and Concept Design\nKara Kolodinsky - Writing, Project Management,
-    Character Design\nBrian Egan - Mechanic System Programming\nMelanie Willig-Friedrich
-    - Character Design, Animation\nAlex Dale - Sound Design\nMoss Limpert - Project
-    Management, UI/UX, Visual Design \n\n\n"
+  m_text: "Sofia Orlando - Concept Design, Writing\nLucas Diamond - Character Controller
+    Programming\nJake Sapp - Level Design and Concept Design\nKara Kolodinsky - Writing,
+    Project Management, Character Design, \nBrian Egan - Mechanic System Programming\nMelanie
+    Willig-Friedrich - Character Design, Animation\nAlex Dale - Sound Design\nMoss
+    Limpert - Project Management, UI/UX, Visual Design \n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1473,8 +1473,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2116,6 +2116,79 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 2123101356}
+--- !u!1001 &1571255644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: intro
+      value: 
+      objectReference: {fileID: 8300000, guid: 360755d5e5dbf7b4ca0efb877a92d7b5, type: 3}
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: mainLoop
+      value: 
+      objectReference: {fileID: 8300000, guid: 175f376a21246a04fa97a7c581b2ab23, type: 3}
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: introTailLength
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: mainLoopTailLength
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1205947572826004175, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_Name
+      value: Jukebox
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
 --- !u!1 &1735812406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,7 +2988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b0ff085ad6dda6a44a7f5765add5dd52, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 89bc7f3359c40d44281b7dcbccf6fe0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3040,3 +3113,4 @@ SceneRoots:
   - {fileID: 397586668}
   - {fileID: 7813434}
   - {fileID: 322003016}
+  - {fileID: 1571255644}
