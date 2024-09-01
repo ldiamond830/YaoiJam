@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 369772786949771807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelColliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8233219789711262750}
   - component: {fileID: 1827694658265113557}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RearRightCol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 10
+    m_ExtremumSlip: 3
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 3695691559540906505}
   - component: {fileID: 1747304045030136333}
   - component: {fileID: 610195561239331508}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spoiler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2089582007886277514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8458415990810080716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CenterOfMass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 8617599343260357168}
   - component: {fileID: 1367296802766042174}
   - component: {fileID: 7952376690206078558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RearRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807218483348329532}
   - component: {fileID: 4081502625875547440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontLeftCol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -393,7 +393,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 10
+    m_ExtremumSlip: 3
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -418,7 +418,7 @@ GameObject:
   - component: {fileID: 1263624193508843391}
   - component: {fileID: 295394036921966204}
   - component: {fileID: 7209708118667536460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +502,7 @@ GameObject:
   - component: {fileID: 6300434658505864948}
   - component: {fileID: 5818318465642758531}
   - component: {fileID: 8998711608069077881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7043556168404094475}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 5728543828811776794}
   - component: {fileID: 627758041398415066}
   - component: {fileID: 7403664513482247096}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RearLeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -699,7 +699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7051215418350239541}
   - component: {fileID: 7040350542900807937}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontRightCol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 10
+    m_ExtremumSlip: 3
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -769,7 +769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 848076530813834325}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WheelTransforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3285462670642287922}
   - component: {fileID: 3509428295806361648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RearLeftCol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -852,7 +852,7 @@ WheelCollider:
     m_AsymptoteValue: 0.5
     m_Stiffness: 1
   m_SidewaysFriction:
-    m_ExtremumSlip: 10
+    m_ExtremumSlip: 3
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
@@ -877,7 +877,7 @@ GameObject:
   - component: {fileID: 2114634294998974350}
   - component: {fileID: 600144308406766338}
   - component: {fileID: 4939267866728903460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontRightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -962,7 +962,7 @@ GameObject:
   - component: {fileID: 3709629609741455437}
   - component: {fileID: 4614677927041721727}
   - component: {fileID: 7762400133527542665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TempCar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,13 +1027,13 @@ BoxCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.69, y: 1, z: 4.61}
+  m_Size: {x: 1.75, y: 1, z: 3.95}
   m_Center: {x: 0, y: 0.63, z: 0}
 --- !u!114 &4614677927041721727
 MonoBehaviour:
@@ -1173,7 +1173,7 @@ GameObject:
   - component: {fileID: 1414836396187272905}
   - component: {fileID: 4063517610913208397}
   - component: {fileID: 6787507911624829050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Speed Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1309,7 +1309,7 @@ GameObject:
   - component: {fileID: 4144782005723750713}
   - component: {fileID: 5555050712772027365}
   - component: {fileID: 3082878163582500083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,7 +1441,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1206535543371808482}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1479,7 @@ GameObject:
   - component: {fileID: 5458042632298832739}
   - component: {fileID: 2869897594288784949}
   - component: {fileID: 2608034713146532126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
