@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657832, g: 0.49641222, b: 0.57481664, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1090,6 +1090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempCarBillboards 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5983799915333753987, guid: 186922f09e7120b569aa3e8befb23493, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 69f0b775653d96d46a5540b7ad9d2252, type: 2}
     - target: {fileID: 6525286368564654502, guid: 186922f09e7120b569aa3e8befb23493, type: 3}
       propertyPath: cam
       value: 
@@ -2332,6 +2336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d9dcefa8f69d844aba9b8077d3cfeb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CenterOfMass: {fileID: 0}
   driveType: 0
   motorPower: 1000
   brakePower: 0
@@ -2352,6 +2357,10 @@ MonoBehaviour:
   radius: 4
   distanceToNextWaypoint: 10
   pathAheadDist: 1
+  pathBehindDist: 0
+  reverseThreshold: 0
+  reverseTime: 0
+  checkStuckTime: 0
 --- !u!54 &1803406639 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 1455395207175679074, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
