@@ -52,10 +52,10 @@ public class AIController : CarController
                         motorPower *= -1;
                         stuckTimer = reverseTime;
                         cacheNode = currentNode;
-                        do
-                        {
+                    do
+                    {
                         currentNode = currentNode.prev;
-                        } while (Vector3.Distance(transform.position, currentNode.transform.position) <= distanceToNextWaypoint);
+                    } while (Vector3.Distance(transform.position, currentNode.transform.position) <= distanceToNextWaypoint); //&& Vector3.Dot((cacheNode.transform.position - transform.position), (currentNode.transform.position - transform.position)) < 0);
                     }
 
                 }

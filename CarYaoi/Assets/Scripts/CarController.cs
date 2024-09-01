@@ -54,6 +54,9 @@ public abstract class CarController : MonoBehaviour
     protected float boostTimer;
 
     public Transform checkPoint;
+    public int lapCounter;
+
+    
 
     // Start is called before the first frame update
     public virtual void Start()
