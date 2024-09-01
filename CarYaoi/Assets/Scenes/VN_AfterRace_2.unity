@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &35185803
+--- !u!1 &27733264
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,43 +131,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 35185804}
-  - component: {fileID: 35185805}
+  - component: {fileID: 27733266}
+  - component: {fileID: 27733265}
   m_Layer: 0
-  m_Name: Maxx06
+  m_Name: Maxx28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &35185804
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35185803}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &35185805
+--- !u!114 &27733265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35185803}
+  m_GameObject: {fileID: 27733264}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "Don\u2019t worry too much about it."
+  _dialogue: "I could get him a new body.\r"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -180,26 +165,29 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1648298542}
+  _nextDialogueContent: {fileID: 1410600273}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
+--- !u!4 &27733266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27733264}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &48728300
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +263,86 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48728300}
   m_CullTransparentMesh: 1
+--- !u!1 &58592013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 58592014}
+  - component: {fileID: 58592015}
+  m_Layer: 0
+  m_Name: Maxx10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &58592014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58592013}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &58592015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 58592013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'My parents abandoned me when I was young. Probably for the best, since
+    I was frail and fell ill a lot.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1082585839}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231080771}
+        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
+        m_MethodName: hideMaxxNeutral
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _dialogueOptions: []
 --- !u!1 &65082625
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,148 +529,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &97774630
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 97774631}
-  - component: {fileID: 97774632}
-  m_Layer: 0
-  m_Name: Acura17
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &97774631
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97774630}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &97774632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97774630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: "Racing\u2014my career\u2014means more to me than any amount of cash."
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1288047463}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideMaxxSmug
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueOptions: []
---- !u!1 &110855440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 110855441}
-  - component: {fileID: 110855442}
-  m_Layer: 0
-  m_Name: Acura16
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &110855441
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110855440}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &110855442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110855440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: "So you\u2019re gonna put your hopes on some drugs instead?!"
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 97774632}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
 --- !u!1 &112230486
 GameObject:
   m_ObjectHideFlags: 0
@@ -697,7 +623,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &128328160
+--- !u!1 &132694334
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -705,22 +631,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 128328161}
-  - component: {fileID: 128328162}
+  - component: {fileID: 132694335}
+  - component: {fileID: 132694336}
   m_Layer: 0
-  m_Name: Acura15
+  m_Name: Acura04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &128328161
+--- !u!4 &132694335
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128328160}
+  m_GameObject: {fileID: 132694334}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -729,19 +655,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &128328162
+--- !u!114 &132694336
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 128328160}
+  m_GameObject: {fileID: 132694334}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "I\u2019m not about to lose it all for a couple of dong.\r"
+  _dialogue: "I understand you need the money\u2026 but we can win this fair and
+    square!\n"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -754,7 +681,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1739786104}
+  _nextDialogueContent: {fileID: 1498969219}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -762,7 +689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!1 &211378785
+--- !u!1 &140678727
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -770,163 +697,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 211378786}
-  - component: {fileID: 211378787}
-  m_Layer: 0
-  m_Name: Acura08
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &211378786
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211378785}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &211378787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211378785}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: "Can\u2019t win without a bit of pain, right?\r\n"
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 921985714}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!1 &223533748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 223533749}
-  - component: {fileID: 223533750}
-  m_Layer: 0
-  m_Name: Maxx03
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &223533749
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223533748}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &223533750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223533748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: "Aren\u2019t you tired? You\u2019ll get hurt if you push yourself too
-    much."
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Maxx
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 211378787}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxSmug
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!1 &245381948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 245381949}
-  - component: {fileID: 245381950}
+  - component: {fileID: 140678729}
+  - component: {fileID: 140678728}
   m_Layer: 0
   m_Name: Acura18
   m_TagString: Untagged
@@ -934,34 +706,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &245381949
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 245381948}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &245381950
+--- !u!114 &140678728
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 245381948}
+  m_GameObject: {fileID: 140678727}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "I play to win, Maxx\u2026 You know that."
+  _dialogue: When we started working together, I ignored how pompous you were.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -974,7 +731,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1844977263}
+  _nextDialogueContent: {fileID: 154587047}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -982,30 +739,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!1 &249366715
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 249366716}
-  - component: {fileID: 249366717}
-  m_Layer: 0
-  m_Name: Maxx02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &249366716
+--- !u!4 &140678729
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249366715}
+  m_GameObject: {fileID: 140678727}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1014,19 +754,183 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &249366717
+--- !u!1 &154587046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 154587048}
+  - component: {fileID: 154587047}
+  m_Layer: 0
+  m_Name: Acura19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &154587047
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249366715}
+  m_GameObject: {fileID: 154587046}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "Every single thing you just mentioned.\r"
+  _dialogue: I ignored how much you treated me like shit.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1397456674}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &154587048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154587046}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &222810777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 222810778}
+  - component: {fileID: 222810779}
+  m_Layer: 0
+  m_Name: Narrator02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &222810778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222810777}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &222810779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222810777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "\rMaxx\u2019s eyes flutter back as he begins to fall to the ground.
+    Acura catches him before he can hit the floor.\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: 
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1854324998}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &277167734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 277167735}
+  - component: {fileID: 277167736}
+  m_Layer: 0
+  m_Name: Maxx24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &277167735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277167734}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &277167736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277167734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "\u2026Donating parts for cash quickly got out of hand. He\u2019s currently
+    a brain in a jar in my apartment."
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1039,27 +943,15 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1696233655}
+  _nextDialogueContent: {fileID: 545277206}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxSmug
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!1 &271281889
+--- !u!1 &324030256
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1067,29 +959,240 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 271281891}
-  - component: {fileID: 271281890}
+  - component: {fileID: 324030257}
+  - component: {fileID: 324030258}
   m_Layer: 0
-  m_Name: Acura06
+  m_Name: Maxx08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &271281890
+--- !u!4 &324030257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324030256}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &324030258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271281889}
+  m_GameObject: {fileID: 324030256}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "I guess we are completely in sync when we\u2019re racing. The adrenalin
-    makes it easy to forget.\r"
+  _dialogue: "My friend, Narib\u2026\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1689704659}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &341563863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341563865}
+  - component: {fileID: 341563864}
+  m_Layer: 0
+  m_Name: Maxx26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &341563864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341563863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: You got his body.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 590182621}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &341563865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341563863}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &343795441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343795443}
+  - component: {fileID: 343795442}
+  m_Layer: 0
+  m_Name: Narrator04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &343795442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343795441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'Maxx reaches into his pocket and pulls out the empty bottle of EPO.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: 
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 777144687}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &343795443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343795441}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &371039429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 371039430}
+  - component: {fileID: 371039431}
+  m_Layer: 0
+  m_Name: Acura04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &371039430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371039429}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &371039431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371039429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "I\u2019m sorry I lashed out at you before\u2026\r\n"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1102,33 +1205,38 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 600374730}
+  _nextDialogueContent: {fileID: 132694336}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &271281891
+--- !u!1 &378031343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378031344}
+  - component: {fileID: 378031345}
+  m_Layer: 0
+  m_Name: Acura10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &378031344
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 271281889}
+  m_GameObject: {fileID: 378031343}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1137,36 +1245,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &426354069
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 426354071}
-  - component: {fileID: 426354070}
-  m_Layer: 0
-  m_Name: Acura11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &426354070
+--- !u!114 &378031345
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426354069}
+  m_GameObject: {fileID: 378031343}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "This could get you\u2014us\u2014permanently banned from racing.\r\n"
+  _dialogue: "Stay calm\u2026I\u2019ll go find a doctor-"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1179,41 +1270,14 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1809154247}
+  _nextDialogueContent: {fileID: 829616684}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideMaxxAnnoyed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueOptions: []
---- !u!4 &426354071
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426354069}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432609512
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1353,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 432609512}
   m_CullTransparentMesh: 1
---- !u!1 &448796451
+--- !u!1 &434692308
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1297,41 +1361,56 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 448796453}
-  - component: {fileID: 448796452}
+  - component: {fileID: 434692309}
+  - component: {fileID: 434692310}
   m_Layer: 0
-  m_Name: Narrator02
+  m_Name: Acura07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &448796452
+--- !u!4 &434692309
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434692308}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &434692310
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448796451}
+  m_GameObject: {fileID: 434692308}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: Maxx takes out a piece of cloth, a bottle of liquid, and a syringe.
+  _dialogue: You look like a ghost...
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: 
+  _characterName: Acura
   _customizeCharacterName: 1
   _withLineBreak: 1
-  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
   _characterNameFontBold: 1
   _characterNameFontItalic: 0
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1403535326}
+  _nextDialogueContent: {fileID: 1868690968}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1339,13 +1418,64 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &448796453
+--- !u!1 &436737507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436737509}
+  - component: {fileID: 436737508}
+  m_Layer: 0
+  m_Name: Acura23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &436737508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436737507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "\u2026Would it kill you to think about something other than money?
+    A career other than your own?"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1097971481}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &436737509
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448796451}
+  m_GameObject: {fileID: 436737507}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1451,9 +1581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "\u2026and then I managed to pass the guy that was trying to block me
-    the whole time! I think his friend was in on it too because he kept trying to
-    push me off the track. "
+  _dialogue: "Phew\u2026that was a tough one."
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1466,7 +1594,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 899110157}
+  _nextDialogueContent: {fileID: 2051266713}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1484,19 +1612,7 @@ MonoBehaviour:
         m_CallState: 2
   _dialogueEndEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideAcuraNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueOptions: []
 --- !u!4 &479487861
 Transform:
@@ -1513,7 +1629,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &562580255
+--- !u!1 &509944986
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1521,95 +1637,28 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 562580257}
-  - component: {fileID: 562580256}
+  - component: {fileID: 509944988}
+  - component: {fileID: 509944987}
   m_Layer: 0
-  m_Name: Acura12
+  m_Name: Maxx30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &562580256
+--- !u!114 &509944987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562580255}
+  m_GameObject: {fileID: 509944986}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: 'And why would I wanna do that?
-
-'
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1288047463}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!4 &562580257
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 562580255}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &589655754
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 589655756}
-  - component: {fileID: 589655755}
-  m_Layer: 0
-  m_Name: Maxx05
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &589655755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589655754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: Erythropoietin.
+  _dialogue: "That\u2019s why I have to win.\r"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1622,33 +1671,21 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 35185805}
+  _nextDialogueContent: {fileID: 1487296040}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &589655756
+--- !u!4 &509944988
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 589655754}
+  m_GameObject: {fileID: 509944986}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1657,7 +1694,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &600374729
+--- !u!1 &521923844
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1665,28 +1702,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 600374731}
-  - component: {fileID: 600374730}
+  - component: {fileID: 521923845}
+  - component: {fileID: 521923846}
   m_Layer: 0
-  m_Name: Acura07
+  m_Name: Acura09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &600374730
+--- !u!4 &521923845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521923844}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &521923846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600374729}
+  m_GameObject: {fileID: 521923844}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "Well, I\u2019m gonna drive a couple of laps before I grease up."
+  _dialogue: Maxx, can you hear me?! Everything is gonna be fine.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1699,33 +1751,397 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 223533750}
+  _nextDialogueContent: {fileID: 378031345}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &600374731
+--- !u!1 &533648055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 533648057}
+  - component: {fileID: 533648056}
+  m_Layer: 0
+  m_Name: Acura21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &533648056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533648055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: All of that's bullshit. You're pathetic.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1539005899}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &533648057
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600374729}
+  m_GameObject: {fileID: 533648055}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &545277205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 545277207}
+  - component: {fileID: 545277206}
+  m_Layer: 0
+  m_Name: Maxx25
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &545277206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545277205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "After getting paired up with you, I see how DRIVECO used his donated
+    parts. \r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 341563864}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &545277207
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545277205}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &584900015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 584900017}
+  - component: {fileID: 584900016}
+  m_Layer: 0
+  m_Name: Acura24
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &584900016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584900015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: What?
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 620536258}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &584900017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584900015}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &590182620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 590182622}
+  - component: {fileID: 590182621}
+  m_Layer: 0
+  m_Name: Maxx27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &590182621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590182620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'With 25 billion dong I could finally repay him. '
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 27733265}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &590182622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590182620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &620536257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 620536259}
+  - component: {fileID: 620536258}
+  m_Layer: 0
+  m_Name: Maxx07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &620536258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620536257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "The money\u2019s not for me."
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 324030258}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &620536259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620536257}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &625904096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 625904098}
+  - component: {fileID: 625904097}
+  m_Layer: 0
+  m_Name: Acura13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &625904097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625904096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "You\u2019re sorry\u2026?\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1610942518}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &625904098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625904096}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1763,7 +2179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: Maxx and Acura enter the break room, exhausted but victorious.
+  _dialogue: Maxx and Acura enter the break room, both exhausted but satisfied.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1799,7 +2215,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &704108410
+--- !u!1 &666977459
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1807,22 +2223,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 704108411}
-  - component: {fileID: 704108412}
+  - component: {fileID: 666977460}
+  - component: {fileID: 666977461}
   m_Layer: 0
-  m_Name: Acura13
+  m_Name: Maxx34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &704108411
+--- !u!4 &666977460
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704108410}
+  m_GameObject: {fileID: 666977459}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1831,39 +2247,115 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &704108412
+--- !u!114 &666977461
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704108410}
+  m_GameObject: {fileID: 666977459}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "When I was a kid, I didn\u2019t know if I\u2019d live long enough to
-    meet my favorite racers. Now I compete side by side with them.\r\n"
+  _dialogue: "Yeah.\r"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
+  _characterName: Maxx
   _customizeCharacterName: 1
   _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
   _characterNameFontBold: 1
   _characterNameFontItalic: 0
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1246018976}
+  _nextDialogueContent: {fileID: 754661540}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &754661538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754661539}
+  - component: {fileID: 754661540}
+  m_Layer: 0
+  m_Name: Maxx35
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754661539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754661538}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &754661540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754661538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "Hey, Acura\u2026 \r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1472857798}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231080771}
+        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
+        m_MethodName: hideMaxxSmug
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _dialogueOptions: []
 --- !u!1 &770257255
 GameObject:
@@ -1909,7 +2401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: I know. I was driving you.
+  _dialogue: Someone should kill that guy.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -1922,7 +2414,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1337165881}
+  _nextDialogueContent: {fileID: 1291476904}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1940,8 +2432,150 @@ MonoBehaviour:
         m_CallState: 2
   _dialogueEndEvent:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231080771}
+        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
+        m_MethodName: hideMaxxSmug
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _dialogueOptions: []
+--- !u!1 &771800153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771800154}
+  - component: {fileID: 771800155}
+  m_Layer: 0
+  m_Name: Maxx16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771800154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771800153}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &771800155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771800153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "We got older and stuck together\u2026\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1832991016}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
+--- !u!1 &777144686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777144688}
+  - component: {fileID: 777144687}
+  m_Layer: 0
+  m_Name: Acura12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &777144687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777144686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "\u2026You didn\u2019t\u2026\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1255318197}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &777144688
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777144686}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &791272944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2871,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 827473778}
   m_CullTransparentMesh: 1
---- !u!1 &853289141
+--- !u!1 &829616682
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2245,79 +2879,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 853289143}
-  - component: {fileID: 853289142}
+  - component: {fileID: 829616683}
+  - component: {fileID: 829616684}
   m_Layer: 0
-  m_Name: Maxx15
+  m_Name: Narrator03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &853289142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853289141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: ...sorry...
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Maxx
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 0}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080772}
-        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
-        m_MethodName: OnClickLoadScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueOptions: []
---- !u!4 &853289143
+--- !u!4 &829616683
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 853289141}
+  m_GameObject: {fileID: 829616682}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2326,75 +2903,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &859325545
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 859325547}
-  - component: {fileID: 859325546}
-  m_Layer: 0
-  m_Name: Maxx09
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &859325546
+--- !u!114 &829616684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859325545}
+  m_GameObject: {fileID: 829616682}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "So yes. I am \u201Cfucking doping.\u201D"
+  _dialogue: 'As Acura starts to pull away Maxx grabs onto his arm.
+
+    
+
+'
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Maxx
+  _characterName: 
   _customizeCharacterName: 1
   _withLineBreak: 1
-  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
   _characterNameFontBold: 1
   _characterNameFontItalic: 0
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 426354070}
+  _nextDialogueContent: {fileID: 1218013581}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxAnnoyed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &859325547
+--- !u!1 &840497056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840497057}
+  - component: {fileID: 840497058}
+  m_Layer: 0
+  m_Name: Narrator07
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &840497057
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859325545}
+  m_GameObject: {fileID: 840497056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2403,7 +2972,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &899110156
+--- !u!114 &840497058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840497056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "Acura smiles at Maxx. He starts to make his way toward the door.\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: 
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 895691760}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &866575914
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2411,28 +3013,108 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 899110158}
-  - component: {fileID: 899110157}
+  - component: {fileID: 866575915}
+  - component: {fileID: 866575916}
   m_Layer: 0
-  m_Name: Acura02
+  m_Name: Maxx22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &899110157
+--- !u!4 &866575915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866575914}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &866575916
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899110156}
+  m_GameObject: {fileID: 866575914}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: I seriously thought I was gonna die. It was nuts.
+  _dialogue: He said it'd be all okay in the end.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1515899090}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &869984140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 869984141}
+  - component: {fileID: 869984142}
+  m_Layer: 0
+  m_Name: Acura28
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &869984141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869984140}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &869984142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869984140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: We need to do it together.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2445,42 +3127,15 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 770257257}
+  _nextDialogueContent: {fileID: 1175108892}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showAcuraHappy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &899110158
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 899110156}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &921985712
+--- !u!1 &871238314
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2488,22 +3143,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 921985713}
-  - component: {fileID: 921985714}
+  - component: {fileID: 871238315}
+  - component: {fileID: 871238316}
   m_Layer: 0
-  m_Name: Maxx04
+  m_Name: Maxx14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &921985713
+--- !u!4 &871238315
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921985712}
+  m_GameObject: {fileID: 871238314}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2512,19 +3167,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &921985714
+--- !u!114 &871238316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921985712}
+  m_GameObject: {fileID: 871238314}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: You have no idea.
+  _dialogue: He'd tell me that we'd become the best racers on our side of Neo Sun.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2537,22 +3192,205 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 448796452}
+  _nextDialogueContent: {fileID: 1662778718}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxSmug
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &880273622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 880273624}
+  - component: {fileID: 880273623}
+  m_Layer: 0
+  m_Name: Acura11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &880273623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880273622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: Huh? What do you mean "don't?"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 343795442}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &880273624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880273622}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &895691758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895691759}
+  - component: {fileID: 895691760}
+  m_Layer: 0
+  m_Name: Acura30
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895691759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895691758}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &895691760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895691758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "It\u2019s been a long day. We gotta rest up.\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 666977461}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &971633900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971633901}
+  - component: {fileID: 971633902}
+  m_Layer: 0
+  m_Name: Maxx02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &971633901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971633900}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &971633902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971633900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "\u2026Huh\u2026?\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1600770481}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -2632,7 +3470,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072741316}
   m_CullTransparentMesh: 1
---- !u!1 &1103718002
+--- !u!1 &1079032791
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2640,67 +3478,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1103718004}
-  - component: {fileID: 1103718003}
+  - component: {fileID: 1079032792}
+  - component: {fileID: 1079032793}
   m_Layer: 0
-  m_Name: Acura05
+  m_Name: Narrator05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1103718003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103718002}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: Funny how that works.
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 271281890}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showAcuraNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!4 &1103718004
+--- !u!4 &1079032792
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103718002}
+  m_GameObject: {fileID: 1079032791}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2709,86 +3502,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1105132431
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1105132432}
-  - component: {fileID: 1105132433}
-  m_Layer: 0
-  m_Name: Acura20
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1105132432
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105132431}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1105132433
+--- !u!114 &1079032793
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1105132431}
+  m_GameObject: {fileID: 1079032791}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: 'Flush that shit down the toilet.
+  _dialogue: 'Maxx sits up. His eyes are locked to the floor.
 
 '
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
+  _characterName: 
   _customizeCharacterName: 1
   _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
   _characterNameFontBold: 1
   _characterNameFontItalic: 0
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1189135992}
+  _nextDialogueContent: {fileID: 58592015}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideAcuraHappy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueOptions: []
---- !u!1 &1120670436
+--- !u!1 &1082585837
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2796,22 +3545,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1120670437}
-  - component: {fileID: 1120670438}
+  - component: {fileID: 1082585838}
+  - component: {fileID: 1082585839}
   m_Layer: 0
-  m_Name: Maxx08
+  m_Name: Maxx11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1120670437
+--- !u!4 &1082585838
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120670436}
+  m_GameObject: {fileID: 1082585837}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2820,19 +3569,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1120670438
+--- !u!114 &1082585839
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120670436}
+  m_GameObject: {fileID: 1082585837}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: Fair sportsmanship ended when enhancement surgery became a league requirement.
+  _dialogue: 'Not only was I an orphan, I was a sick orphan. Shitty odds all around. '
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -2845,16 +3594,13 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 859325546}
+  _nextDialogueContent: {fileID: 2085290279}
   _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1231080771}
         m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideMaxxNeutral
+        m_MethodName: showMaxxSmug
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2864,6 +3610,151 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231080771}
+        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
+        m_MethodName: hideMaxxSmug
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _dialogueOptions: []
+--- !u!1 &1097971480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1097971482}
+  - component: {fileID: 1097971481}
+  m_Layer: 0
+  m_Name: Maxx06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1097971481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097971480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "It\u2019s not for me.\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 584900016}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &1097971482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097971480}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1149385870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149385871}
+  - component: {fileID: 1149385872}
+  m_Layer: 0
+  m_Name: Acura26
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149385871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149385870}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149385872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149385870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: What other option is there?
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1467197721}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
   _dialogueOptions: []
 --- !u!1 &1155018847
 GameObject:
@@ -2940,7 +3831,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &1189135990
+--- !u!1 &1175108890
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2948,22 +3839,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1189135991}
-  - component: {fileID: 1189135992}
+  - component: {fileID: 1175108891}
+  - component: {fileID: 1175108892}
   m_Layer: 0
-  m_Name: Narrator03
+  m_Name: Acura29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1189135991
+--- !u!4 &1175108891
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189135990}
+  m_GameObject: {fileID: 1175108890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2972,39 +3863,105 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1189135992
+--- !u!114 &1175108892
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189135990}
+  m_GameObject: {fileID: 1175108890}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: Acura leaves the room with determination. Maxx stares at the floor,
-    conflicted.
+  _dialogue: 'No more stupid shit, Maxx. I need you to trust me.
+
+'
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: 
+  _characterName: Acura
   _customizeCharacterName: 1
   _withLineBreak: 1
-  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
   _characterNameFontBold: 1
   _characterNameFontItalic: 0
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1690024448}
+  _nextDialogueContent: {fileID: 1780144110}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1196685161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196685162}
+  - component: {fileID: 1196685163}
+  m_Layer: 0
+  m_Name: Maxx33
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1196685162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196685161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1196685163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196685161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: Alright.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 840497058}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1231080771}
         m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideAcuraNeutral
+        m_MethodName: showMaxxSmug
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3014,6 +3971,71 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1218013579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1218013580}
+  - component: {fileID: 1218013581}
+  m_Layer: 0
+  m_Name: Maxx04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1218013580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218013579}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1218013581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218013579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: Don't.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 880273623}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -3165,46 +4187,83 @@ RectTransform:
   - {fileID: 827249625}
   - {fileID: 791272945}
   - {fileID: 1683449978}
-  - {fileID: 1293014379}
-  - {fileID: 1270266591}
   - {fileID: 658535114}
   - {fileID: 479487861}
-  - {fileID: 899110158}
+  - {fileID: 2051266712}
   - {fileID: 770257256}
-  - {fileID: 1337165882}
-  - {fileID: 249366716}
-  - {fileID: 1696233656}
-  - {fileID: 1103718004}
-  - {fileID: 271281891}
-  - {fileID: 600374731}
-  - {fileID: 223533749}
-  - {fileID: 211378786}
-  - {fileID: 921985713}
-  - {fileID: 448796453}
-  - {fileID: 1403535327}
-  - {fileID: 589655756}
-  - {fileID: 35185804}
-  - {fileID: 1648298543}
-  - {fileID: 1438208841}
-  - {fileID: 1120670437}
-  - {fileID: 859325547}
-  - {fileID: 426354071}
-  - {fileID: 1809154246}
-  - {fileID: 1865788085}
-  - {fileID: 562580257}
-  - {fileID: 704108411}
-  - {fileID: 1246018975}
-  - {fileID: 128328161}
-  - {fileID: 1739786103}
-  - {fileID: 110855441}
-  - {fileID: 97774631}
-  - {fileID: 1288047462}
-  - {fileID: 245381949}
-  - {fileID: 1844977262}
-  - {fileID: 1105132432}
-  - {fileID: 1189135991}
-  - {fileID: 1690024449}
-  - {fileID: 853289143}
+  - {fileID: 1291476905}
+  - {fileID: 1621447807}
+  - {fileID: 371039430}
+  - {fileID: 132694335}
+  - {fileID: 1498969218}
+  - {fileID: 971633901}
+  - {fileID: 1600770480}
+  - {fileID: 434692309}
+  - {fileID: 1868690967}
+  - {fileID: 222810778}
+  - {fileID: 1854324997}
+  - {fileID: 521923845}
+  - {fileID: 378031344}
+  - {fileID: 829616683}
+  - {fileID: 1218013580}
+  - {fileID: 880273624}
+  - {fileID: 343795443}
+  - {fileID: 777144688}
+  - {fileID: 2003615178}
+  - {fileID: 625904098}
+  - {fileID: 1610942517}
+  - {fileID: 1255318198}
+  - {fileID: 1444857504}
+  - {fileID: 1776975868}
+  - {fileID: 1641064088}
+  - {fileID: 140678729}
+  - {fileID: 154587048}
+  - {fileID: 1397456675}
+  - {fileID: 533648057}
+  - {fileID: 1539005900}
+  - {fileID: 436737509}
+  - {fileID: 1097971482}
+  - {fileID: 584900017}
+  - {fileID: 620536259}
+  - {fileID: 324030257}
+  - {fileID: 1689704658}
+  - {fileID: 1079032792}
+  - {fileID: 58592014}
+  - {fileID: 1082585838}
+  - {fileID: 2085290278}
+  - {fileID: 1468173817}
+  - {fileID: 871238315}
+  - {fileID: 1662778717}
+  - {fileID: 771800154}
+  - {fileID: 1832991015}
+  - {fileID: 1754732124}
+  - {fileID: 1820600920}
+  - {fileID: 1611952846}
+  - {fileID: 1499169055}
+  - {fileID: 866575915}
+  - {fileID: 1515899089}
+  - {fileID: 277167735}
+  - {fileID: 545277207}
+  - {fileID: 341563865}
+  - {fileID: 590182622}
+  - {fileID: 27733266}
+  - {fileID: 1410600274}
+  - {fileID: 509944988}
+  - {fileID: 1487296039}
+  - {fileID: 1624324226}
+  - {fileID: 1149385871}
+  - {fileID: 1467197720}
+  - {fileID: 1802155554}
+  - {fileID: 869984141}
+  - {fileID: 1175108891}
+  - {fileID: 1780144109}
+  - {fileID: 1196685162}
+  - {fileID: 840497057}
+  - {fileID: 895691759}
+  - {fileID: 666977460}
+  - {fileID: 754661539}
+  - {fileID: 1472857797}
+  - {fileID: 1810840559}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3244,7 +4303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Mechanic
---- !u!1 &1246018974
+--- !u!1 &1255318196
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3252,22 +4311,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1246018975}
-  - component: {fileID: 1246018976}
+  - component: {fileID: 1255318198}
+  - component: {fileID: 1255318197}
   m_Layer: 0
-  m_Name: Acura14
+  m_Name: Maxx05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1246018975
+--- !u!114 &1255318197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255318196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "\u2026\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1444857503}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &1255318198
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246018974}
+  m_GameObject: {fileID: 1255318196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3276,104 +4368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1246018976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1246018974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: I sacrificed the sickly person I was before to become the car I am today.
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 128328162}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!1 &1270266590
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1270266591}
-  - component: {fileID: 1270266592}
-  m_Layer: 0
-  m_Name: Announcer03
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1270266591
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270266590}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1270266592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270266590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: 'We''ll be back after these messages! '
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: ANNOUNCER
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 658535113}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
 --- !u!1 &1277634708
 GameObject:
   m_ObjectHideFlags: 0
@@ -3453,7 +4447,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
---- !u!1 &1288047461
+--- !u!1 &1291476903
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3461,37 +4455,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1288047462}
-  - component: {fileID: 1288047463}
+  - component: {fileID: 1291476905}
+  - component: {fileID: 1291476904}
   m_Layer: 0
-  m_Name: Maxx13
+  m_Name: Maxx01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1288047462
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288047461}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1288047463
+--- !u!114 &1291476904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288047461}
+  m_GameObject: {fileID: 1291476903}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
@@ -3510,7 +4489,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 245381950}
+  _nextDialogueContent: {fileID: 1621447808}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3530,30 +4509,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!1 &1293014378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1293014379}
-  - component: {fileID: 1293014380}
-  m_Layer: 0
-  m_Name: Announcer02
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1293014379
+--- !u!4 &1291476905
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293014378}
+  m_GameObject: {fileID: 1291476903}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3562,41 +4524,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1293014380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1293014378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: "While our racers take a break, we\u2019re gonna go ahead and cut to
-    commercial."
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: ANNOUNCER
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1270266592}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!1 &1337165880
+--- !u!1 &1397456673
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3604,28 +4532,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1337165882}
-  - component: {fileID: 1337165881}
+  - component: {fileID: 1397456675}
+  - component: {fileID: 1397456674}
   m_Layer: 0
-  m_Name: Acura03
+  m_Name: Acura20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1337165881
+--- !u!114 &1397456674
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337165880}
+  m_GameObject: {fileID: 1397456673}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "Oh, so you saw?\r"
+  _dialogue: "\u2026Because you were the \u201CPrince of the Streets.\u201D I was
+    honored to be handled by you. I felt alive."
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3638,33 +4567,21 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 249366717}
+  _nextDialogueContent: {fileID: 533648056}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showAcuraHappy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &1337165882
+--- !u!4 &1397456675
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1337165880}
+  m_GameObject: {fileID: 1397456673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3673,7 +4590,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1403535325
+--- !u!1 &1410600272
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3681,67 +4598,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1403535327}
-  - component: {fileID: 1403535326}
+  - component: {fileID: 1410600274}
+  - component: {fileID: 1410600273}
   m_Layer: 0
-  m_Name: Acura09
+  m_Name: Maxx29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1403535326
+--- !u!114 &1410600273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403535325}
+  m_GameObject: {fileID: 1410600272}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: What is that?
+  _dialogue: Things would go back to normal.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
+  _characterName: Maxx
   _customizeCharacterName: 1
   _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
   _characterNameFontBold: 1
   _characterNameFontItalic: 0
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 589655755}
+  _nextDialogueContent: {fileID: 509944987}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: hideMaxxSmug
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueOptions: []
---- !u!4 &1403535327
+--- !u!4 &1410600274
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403535325}
+  m_GameObject: {fileID: 1410600272}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3825,7 +4730,7 @@ RectTransform:
   m_AnchoredPosition: {x: 560, y: 0}
   m_SizeDelta: {x: 280, y: 280}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &1438208840
+--- !u!1 &1444857502
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3833,22 +4738,57 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1438208841}
-  - component: {fileID: 1438208842}
+  - component: {fileID: 1444857504}
+  - component: {fileID: 1444857503}
   m_Layer: 0
-  m_Name: Maxx07
+  m_Name: Acura15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1438208841
+--- !u!114 &1444857503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444857502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'People love you.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1776975867}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &1444857504
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1438208840}
+  m_GameObject: {fileID: 1444857502}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3857,19 +4797,119 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1438208842
+--- !u!1 &1467197719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467197720}
+  - component: {fileID: 1467197721}
+  m_Layer: 0
+  m_Name: Narrator06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467197720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467197719}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1467197721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1438208840}
+  m_GameObject: {fileID: 1467197719}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: 'We live in a world where people turn into cars, Acura. '
+  _dialogue: Acura stands up and reaches out his hand towards Maxx.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: 
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1802155555}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1468173816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1468173817}
+  - component: {fileID: 1468173818}
+  m_Layer: 0
+  m_Name: Maxx13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1468173817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468173816}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1468173818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468173816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'We would always stay up past bedtime and watch the older kids practice
+    at the race track.
+
+'
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3882,7 +4922,74 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1120670438}
+  _nextDialogueContent: {fileID: 871238316}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1472857796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472857797}
+  - component: {fileID: 1472857798}
+  m_Layer: 0
+  m_Name: Maxx36
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472857797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472857796}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1472857798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472857796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'Thanks for all that.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1810840560}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -3902,7 +5009,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!1 &1648298541
+--- !u!1 &1487296038
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3910,28 +5017,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1648298543}
-  - component: {fileID: 1648298542}
+  - component: {fileID: 1487296039}
+  - component: {fileID: 1487296040}
   m_Layer: 0
-  m_Name: Acura10
+  m_Name: Acura25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1648298542
+--- !u!4 &1487296039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487296038}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1487296040
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648298541}
+  m_GameObject: {fileID: 1487296038}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "You\u2019re fucking doping?"
+  _dialogue: Alright, so let's win.
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -3944,7 +5066,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1438208842}
+  _nextDialogueContent: {fileID: 1624324227}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -3952,13 +5074,657 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &1648298543
+--- !u!1 &1498969217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1498969218}
+  - component: {fileID: 1498969219}
+  m_Layer: 0
+  m_Name: Acura05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498969218
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648298541}
+  m_GameObject: {fileID: 1498969217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1498969219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498969217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'You just have to trust me.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 971633902}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1499169054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1499169055}
+  - component: {fileID: 1499169056}
+  m_Layer: 0
+  m_Name: Maxx21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1499169055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499169054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499169056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499169054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'He told me not to make a big deal out of it.
+
+    
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 866575916}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1515899088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515899089}
+  - component: {fileID: 1515899090}
+  m_Layer: 0
+  m_Name: Maxx23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1515899089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515899088}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1515899090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515899088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: That it'd all be worth it in the end when I was number one.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 277167736}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1539005898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1539005900}
+  - component: {fileID: 1539005899}
+  m_Layer: 0
+  m_Name: Acura22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1539005899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539005898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "You\u2019re collapsed in my arms right now, and instead of going to
+    the hospital, you\u2019re thinking about prize money. "
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 436737508}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &1539005900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539005898}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1600770479
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1600770480}
+  - component: {fileID: 1600770481}
+  m_Layer: 0
+  m_Name: Acura06
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1600770480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600770479}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1600770481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600770479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "Seriously, man. What\u2019s up with you?\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 434692310}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1610942516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1610942517}
+  - component: {fileID: 1610942518}
+  m_Layer: 0
+  m_Name: Acura14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1610942517
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610942516}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1610942518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1610942516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "You risked our spot in the finale\u2026\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 2003615177}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1611952845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611952846}
+  - component: {fileID: 1611952847}
+  m_Layer: 0
+  m_Name: Maxx20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611952846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611952845}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611952847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611952845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "I wasn\u2019t okay with it, obviously, but\u2026\r\n"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1499169056}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1621447806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1621447807}
+  - component: {fileID: 1621447808}
+  m_Layer: 0
+  m_Name: Acura03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1621447807
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621447806}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1621447808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621447806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "Hey\u2026you doin\u2019 ok?\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 371039431}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1624324225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1624324226}
+  - component: {fileID: 1624324227}
+  m_Layer: 0
+  m_Name: Maxx31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1624324226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624324225}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1624324227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624324225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "You\u2026still want to race together?"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1149385872}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1641064086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641064088}
+  - component: {fileID: 1641064087}
+  m_Layer: 0
+  m_Name: Acura17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1641064087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641064086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'You even had me fooled.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 140678728}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &1641064088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641064086}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4046,6 +5812,71 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!1 &1662778716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662778717}
+  - component: {fileID: 1662778718}
+  m_Layer: 0
+  m_Name: Maxx15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1662778717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662778716}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1662778718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662778716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: He always believed I could be something.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 771800155}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
 --- !u!1 &1683449976
 GameObject:
   m_ObjectHideFlags: 0
@@ -4075,7 +5906,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "And that\u2019s the first race!"
+  _dialogue: "That\u2019s a wrap for today\u2019s races! Great job out there, racers.
+    Refreshments are available in your break rooms. Take a well-deserved rest, and
+    get ready for tomorrow's finale!\r\n"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4088,7 +5921,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1293014380}
+  _nextDialogueContent: {fileID: 658535113}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -4111,7 +5944,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1690024447
+--- !u!1 &1689704657
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4119,28 +5952,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1690024449}
-  - component: {fileID: 1690024448}
+  - component: {fileID: 1689704658}
+  - component: {fileID: 1689704659}
   m_Layer: 0
-  m_Name: Maxx14
+  m_Name: Maxx09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1690024448
+--- !u!4 &1689704658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689704657}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1689704659
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690024447}
+  m_GameObject: {fileID: 1689704657}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: ...
+  _dialogue: "\u2026Really, he\u2019s a lot more than that.\r\n"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4153,42 +6001,15 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 853289142}
+  _nextDialogueContent: {fileID: 1079032793}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!4 &1690024449
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1690024447}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1696233654
+--- !u!1 &1754732123
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4196,67 +6017,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1696233656}
-  - component: {fileID: 1696233655}
+  - component: {fileID: 1754732124}
+  - component: {fileID: 1754732125}
   m_Layer: 0
-  m_Name: Acura04
+  m_Name: Maxx18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1696233655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696233654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: Huh.
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Acura
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1103718003}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showAcuraHappy
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!4 &1696233656
+--- !u!4 &1754732124
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1696233654}
+  m_GameObject: {fileID: 1754732123}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4265,51 +6041,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1739786102
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1739786103}
-  - component: {fileID: 1739786104}
-  m_Layer: 0
-  m_Name: Maxx12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1739786103
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739786102}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1739786104
+--- !u!114 &1754732125
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1739786102}
+  m_GameObject: {fileID: 1754732123}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "I would qualify 25 billion as more than just \u201Ca couple.\u201D"
+  _dialogue: "I couldn\u2019t really pay for my treatments while I was bedridden,
+    so\u2026\r\n"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4322,22 +6067,10 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 110855442}
+  _nextDialogueContent: {fileID: 1820600921}
   _dialogueStartEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxAnnoyed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -4449,7 +6182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1231080765}
   launchDialogueOnStartScene: 1
---- !u!1 &1809154245
+--- !u!1 &1776975866
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4457,120 +6190,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1809154246}
-  - component: {fileID: 1809154247}
+  - component: {fileID: 1776975868}
+  - component: {fileID: 1776975867}
   m_Layer: 0
-  m_Name: Maxx10
+  m_Name: Acura16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1809154246
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809154245}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1809154247
+--- !u!114 &1776975867
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809154245}
+  m_GameObject: {fileID: 1776975866}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: "Permanently banned or walking away with 25 billion in dong.\r"
-  _customizeFont: 0
-  _dialogueFont: {fileID: 0}
-  _fontColor: {r: 0, g: 0, b: 0, a: 0}
-  _characterName: Maxx
-  _customizeCharacterName: 1
-  _withLineBreak: 1
-  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
-  _characterNameFontBold: 1
-  _characterNameFontItalic: 0
-  _characterNameFontSize: 0
-  _characterImageSprite: {fileID: 0}
-  _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1865788084}
-  _dialogueStartEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1231080771}
-        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
-        m_MethodName: showMaxxNeutral
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _dialogueEndEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  _dialogueOptions: []
---- !u!1 &1844977261
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1844977262}
-  - component: {fileID: 1844977263}
-  m_Layer: 0
-  m_Name: Acura19
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1844977262
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844977261}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1231080770}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1844977263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1844977261}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _dialogue: "I\u2019m going to warm up before the next race.\r"
+  _dialogue: "You know that, right? No matter where you go, people are always raving
+    about \u201CThe Prince of the Streets.\u201D"
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4583,7 +6225,7 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 1105132433}
+  _nextDialogueContent: {fileID: 1641064087}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -4591,7 +6233,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _dialogueOptions: []
---- !u!1 &1865788083
+--- !u!4 &1776975868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776975866}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1780144108
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4599,28 +6256,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1865788085}
-  - component: {fileID: 1865788084}
+  - component: {fileID: 1780144109}
+  - component: {fileID: 1780144110}
   m_Layer: 0
-  m_Name: Maxx11
+  m_Name: Maxx32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1865788084
+--- !u!4 &1780144109
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780144108}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1780144110
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865788083}
+  m_GameObject: {fileID: 1780144108}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dialogue: You could retire tomorrow with that money.
+  _dialogue: ...
   _customizeFont: 0
   _dialogueFont: {fileID: 0}
   _fontColor: {r: 0, g: 0, b: 0, a: 0}
@@ -4633,21 +6305,50 @@ MonoBehaviour:
   _characterNameFontSize: 0
   _characterImageSprite: {fileID: 0}
   _characterImagePosition: 0
-  _nextDialogueContent: {fileID: 562580256}
+  _nextDialogueContent: {fileID: 1196685163}
   _dialogueStartEvent:
     m_PersistentCalls:
       m_Calls: []
   _dialogueEndEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1231080771}
+        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
+        m_MethodName: hideMaxxNeutral
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _dialogueOptions: []
---- !u!4 &1865788085
+--- !u!1 &1802155553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1802155554}
+  - component: {fileID: 1802155555}
+  m_Layer: 0
+  m_Name: Acura27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1802155554
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865788083}
+  m_GameObject: {fileID: 1802155553}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4656,6 +6357,453 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1231080770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1802155555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802155553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "If we want to win this\u2026"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 869984142}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1810840558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1810840559}
+  - component: {fileID: 1810840560}
+  m_Layer: 0
+  m_Name: Acura31
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1810840559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810840558}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1810840560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810840558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "No problem. We\u2019re partners, after all!"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 0}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231080772}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: OnClickLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
+  _dialogueOptions: []
+--- !u!1 &1820600919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1820600920}
+  - component: {fileID: 1820600921}
+  m_Layer: 0
+  m_Name: Maxx19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1820600920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820600919}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1820600921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820600919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'He started donating his body parts to DRIVECO to pay for my treatments.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1611952847}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1832991014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1832991015}
+  - component: {fileID: 1832991016}
+  m_Layer: 0
+  m_Name: Maxx17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1832991015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832991014}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1832991016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832991014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: '..and I started getting sicker.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1754732125}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1001 &1839298790
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: intro
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: mainLoop
+      value: 
+      objectReference: {fileID: 8300000, guid: 2fd3abea934aa734a9386c4d3f2d0856, type: 3}
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: introTailLength
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 689951343399034696, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: mainLoopTailLength
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1205947572826004175, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_Name
+      value: Jukebox
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539202762317471145, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06722e85868dfb24cb00c34eac6426db, type: 3}
+--- !u!1 &1854324996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1854324997}
+  - component: {fileID: 1854324998}
+  m_Layer: 0
+  m_Name: Acura08
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1854324997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854324996}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1854324998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854324996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "Jesus, man\u2026"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 521923846}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &1868690966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868690967}
+  - component: {fileID: 1868690968}
+  m_Layer: 0
+  m_Name: Maxx03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1868690967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868690966}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1868690968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868690966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: I...
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 222810779}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
 --- !u!1 &1903857101
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,6 +6954,217 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932471328}
   m_CullTransparentMesh: 1
+--- !u!1 &2003615176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2003615178}
+  - component: {fileID: 2003615177}
+  m_Layer: 0
+  m_Name: Maxx05
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2003615177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003615176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: "Acura. I\u2019m sorry\u2026\r"
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 625904097}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!4 &2003615178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003615176}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2051266711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051266712}
+  - component: {fileID: 2051266713}
+  m_Layer: 0
+  m_Name: Acura02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051266712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051266711}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2051266713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051266711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: Why would someone even attempt trick shots during a race? He was twisted
+    for that.
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Acura
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 0.7019608, g: 0.007843138, b: 1, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 770257257}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
+--- !u!1 &2085290277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2085290278}
+  - component: {fileID: 2085290279}
+  m_Layer: 0
+  m_Name: Maxx12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2085290278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085290277}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1231080770}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2085290279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085290277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf02dac1997b2dd4c94fc9fe81132707, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogue: 'Narib was the only other kid at the orphanage who would stick by my
+    side.
+
+'
+  _customizeFont: 0
+  _dialogueFont: {fileID: 0}
+  _fontColor: {r: 0, g: 0, b: 0, a: 0}
+  _characterName: Maxx
+  _customizeCharacterName: 1
+  _withLineBreak: 1
+  _characterNameFontColor: {r: 1, g: 0.3529412, b: 0.9411765, a: 0}
+  _characterNameFontBold: 1
+  _characterNameFontItalic: 0
+  _characterNameFontSize: 0
+  _characterImageSprite: {fileID: 0}
+  _characterImagePosition: 0
+  _nextDialogueContent: {fileID: 1468173818}
+  _dialogueStartEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1231080771}
+        m_TargetAssemblyTypeName: TalkSprite, Assembly-CSharp
+        m_MethodName: showMaxxNeutral
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _dialogueEndEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _dialogueOptions: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4815,3 +7174,4 @@ SceneRoots:
   - {fileID: 94273996}
   - {fileID: 451050233}
   - {fileID: 1231080770}
+  - {fileID: 1839298790}
