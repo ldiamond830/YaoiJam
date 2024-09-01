@@ -10,6 +10,7 @@ public class AIController : CarController
     [SerializeField]
     private PathNode currentNode;
     private PathNode nodeAtLastCheckPoint;
+    private PathNode cacheNode;
     [SerializeField]
     private float radius = 4;
     [SerializeField]
@@ -36,15 +37,13 @@ public class AIController : CarController
 
     private void Update()
     {
-        Debug.Log(motorPower);
-        //check if the car has gotten stuck
-       
+            //check if the car has gotten stuck  
             stuckTimer -= Time.deltaTime;
 
             if (stuckTimer < 0)
             {
                 stuckTimer = checkStuckTime;
-                if(!isReversing)
+                if (!isReversing)
                 {
                     //if the distance between the current position and position one second ago is within a certain threshold start reversing to the previous waypoint
                     if (Vector3.Distance(transform.position, prevPosition) < reverseThreshold)
@@ -52,13 +51,19 @@ public class AIController : CarController
                         isReversing = true;
                         motorPower *= -1;
                         stuckTimer = reverseTime;
-                }
+                        cacheNode = currentNode;
+                        do
+                        {
+                        currentNode = currentNode.prev;
+                        } while (Vector3.Distance(transform.position, currentNode.transform.position) <= distanceToNextWaypoint);
+                    }
 
                 }
                 else
                 {
                     isReversing = false;
-                    motorPower *= -1; 
+                    motorPower *= -1;
+                    currentNode = cacheNode;
                 }
                 prevPosition = transform.position;
             }
@@ -82,7 +87,7 @@ public class AIController : CarController
 
     protected override void SteerCar()
     {
-        if(Vector3.Distance(transform.position, currentNode.transform.position) <= distanceToNextWaypoint) {
+        if(Vector3.Distance(transform.position, currentNode.transform.position) <= distanceToNextWaypoint && !isReversing) {
             currentNode = currentNode.next;
         }
 
