@@ -67,17 +67,7 @@ public class PlayerController : CarController
         allTransforms[2] = frontLeftWheelTransform;
         allTransforms[3] = frontRightWheelTransform;
 
-        if(MechanicScript.Instance != null) 
-        { 
-            parts = MechanicScript.Instance.playerInventory;
-            stats = MechanicScript.Instance.playerStats;
-
-            motorPower += stats.acceleration;
-            brakePower += stats.braking;
-            topSpeed += stats.topSpeed;
-            maxSteeringAngle += stats.turnSpeed;
-            nitroCharges += stats.boosts;
-        }
+    
 
         rigidBody.centerOfMass = CenterOfMass.localPosition;
     }

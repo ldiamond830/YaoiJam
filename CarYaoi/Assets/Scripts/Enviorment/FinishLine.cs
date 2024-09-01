@@ -34,7 +34,7 @@ public class FinishLine : MonoBehaviour
                     } else if (trackNumber == 2)
                     {
                         loadScene.OnClickLoadScene("VN_AfterRace_2");
-                    } else loadScene.OnClickLoadScene("VN_Win");
+                    } else loadScene.OnClickLoadScene("VN_AfterRace_3");
                 }
                 else
                 {
@@ -45,7 +45,7 @@ public class FinishLine : MonoBehaviour
                     } else if (trackNumber == 2)
                     {
                         loadScene.OnClickLoadScene("VN_AfterRace_2");
-                    } else loadScene.OnClickLoadScene("VN_Win");
+                    } else loadScene.OnClickLoadScene("VN_AfterRace_3");
 
                 }
             }
