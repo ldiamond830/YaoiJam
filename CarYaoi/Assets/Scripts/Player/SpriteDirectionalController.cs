@@ -28,9 +28,9 @@ public class SpriteDirectionalController : MonoBehaviour
         //Debug.Log("angle:" + angle);
 
         if (signedAngle < 0) {
-            spriteRenderer.flipX = true;
-        } else {
             spriteRenderer.flipX = false;
+        } else {
+            spriteRenderer.flipX = true;
         }
         
         
@@ -41,26 +41,28 @@ public class SpriteDirectionalController : MonoBehaviour
         // W SIDE
         if (angle < 3f || angle > 355f) {
             animationAngle = new Vector2(0f, 1f);
+            
 
         } else if (angle < 90f) /*NW FWD LEFT*/ {
-            animationAngle = new Vector2(-1f, 0f);
+            animationAngle = new Vector2(0.75f, 0.75f);
 
         } else if (angle < 90.05f) /*N FWD*/ {
-            animationAngle = new Vector2(0f, -1f);
+            animationAngle = new Vector2(1f, 0f);
 
         } else if (angle < 155f) /*NE FWD RIGHT*/ {
-            animationAngle = new Vector2(1f, 0f);
+            animationAngle = new Vector2(0.75f, -0.75f);
         } else if (angle < 190f) /*E SIDE*/ {
-            animationAngle = new Vector2(0f, 1f);
-
-        } else if (angle < 225f) /*SE FWD LEFT*/ {
-            animationAngle = new Vector2(-1f, 0f);
-
-        } else if (angle < 295f) /*S FWD*/ {
             animationAngle = new Vector2(0f, -1f);
 
+        } else if (angle < 225f) /*SE FWD LEFT*/ {
+            animationAngle = new Vector2(-0.75f, -0.75f);
+
+        } else if (angle < 295f) /*S FWD*/ {
+            animationAngle = new Vector2(-1f, 0f);
+
         } else if (angle < 335f) /*SW FWD RIGHT*/ {
-            animationAngle = new Vector2(1f, 0f);
+            
+            animationAngle = new Vector2(-0.75f, 0.75f);
 
         } 
 
