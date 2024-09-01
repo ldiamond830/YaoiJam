@@ -21,10 +21,18 @@ public class Jukebox : MonoBehaviour
         sources = GetComponentsInChildren<AudioSource>();
 
         // Start intro and calculate when it will end
-        sources[0].clip = intro;
+
+        sources[0].clip = intro != null ? intro : mainLoop;
         dspTime = AudioSettings.dspTime;
         sources[0].PlayScheduled(dspTime + 1f);
-        nextEventTime = dspTime + 1f + intro.length - introTailLength;
+        if (intro != null ){
+                nextEventTime = dspTime + 1f + intro.length - introTailLength;
+        }
+        else {
+                nextEventTime = dspTime + 1f + mainLoop.length - mainLoopTailLength;
+        }
+        
+
     }
 
     // Update is called once per frame
