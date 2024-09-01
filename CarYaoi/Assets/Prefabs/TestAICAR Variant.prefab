@@ -13,6 +13,18 @@ PrefabInstance:
       value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893570509274503020, guid: 565ee48c2a8d4f74990354b6e04f318a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.24
       objectReference: {fileID: 0}
@@ -170,11 +182,11 @@ MonoBehaviour:
   checkPoint: {fileID: 0}
   currentNode: {fileID: 0}
   radius: 4
-  distanceToNextWaypoint: 10
+  distanceToNextWaypoint: 4
   pathAheadDist: 0
   pathBehindDist: 0
-  reverseThreshold: 0.5
-  reverseTime: 1
+  reverseThreshold: 0.2
+  reverseTime: 1.75
   checkStuckTime: 0.75
 --- !u!146 &7977637560139602317 stripped
 WheelCollider:
