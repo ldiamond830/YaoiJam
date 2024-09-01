@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 /// <summary>
 /// Singleton that stores all the parts in the game.
@@ -44,6 +45,7 @@ public class MechanicScript : MonoBehaviour
     /// https://stackoverflow.com/questions/62102324/how-can-i-add-each-instance-of-a-scriptable-object-to-a-collection
     private static T[] GetAllInstances<T>() where T : PartScriptableObject
     {
+        #if UNITY_EDITOR
         string[] guids = UnityEditor.AssetDatabase.FindAssets("t:" + typeof(T).Name);  //FindAssets uses tags check documentation for more info
         T[] a = new T[guids.Length];
         for (int i = 0; i < guids.Length; i++)         //probably could get optimized 
@@ -51,8 +53,10 @@ public class MechanicScript : MonoBehaviour
             string path = UnityEditor.AssetDatabase.GUIDToAssetPath(guids[i]);
             a[i] = UnityEditor.AssetDatabase.LoadAssetAtPath<T>(path);
         }
-
-        return a;
+        #endif
+        // shit wont build if i dont do this https://stackoverflow.com/questions/55479804/unity-the-name-assetdatabase-does-not-exist-in-the-current-context
+        T[] b = new T[3];
+        return b;
     }
 
     /// <summary>
