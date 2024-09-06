@@ -47,11 +47,11 @@ public class ClickOpenDrawer : MonoBehaviour
         {
             PartScriptableObject data = partData[dataIndex];
             //This doesn't seem to be the image that's presented
-            GameObject image = part.transform.GetChild(0).gameObject;
+            Transform image = part.transform.GetChild(0);
             image.GetComponent<Image>().sprite = data.image;
 
             Transform button = part.transform.GetChild(1);
-            //button.GetComponent<Image>().sprite = data.image;
+            button.GetComponent<Image>().sprite = data.image; // Loads in the part's image to use
             Transform name = button.GetChild(0);
             name.GetComponent<TextMeshProUGUI>().text = data.name;
             Transform slots = button.GetChild(1);

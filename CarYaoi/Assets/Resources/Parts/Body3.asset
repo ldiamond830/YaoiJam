@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a82e63738e921d5459f371a8e4af5cd1, type: 3}
-  m_Name: Engine1
+  m_Name: Body3
   m_EditorClassIdentifier: 
-  name: Engine1
+  name: Body3
   flavorText: 
-  tier: 1
-  type: 1
+  tier: 3
+  type: 2
   stats:
     acceleration: 200
     braking: 1
@@ -23,4 +23,4 @@ MonoBehaviour:
     turnSpeed: 1
     boosts: 1
     pointCost: 1
-  image: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  image: {fileID: 21300000, guid: dfdcdbde57d17dd84b7cef67a9481e89, type: 3}
