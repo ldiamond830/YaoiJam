@@ -6,7 +6,6 @@ public class PathNode : MonoBehaviour
 {
     public PathNode next;
     public PathNode prev;
-
     public PathNode GetNext(int numToSkip)
     {
         if(numToSkip == 0)
